@@ -1,0 +1,154 @@
+2023-05-02 12:51:56,920 INFO [restartedMain] c.c.m.SpringDataJpaMtbsApplication [StartupInfoLogger.java:51] Starting SpringDataJpaMtbsApplication using Java 17.0.6 with PID 24924 (E:\Demos\MTBS\target\classes started by kalpeshy in E:\Demos\MTBS)
+2023-05-02 12:51:56,923 INFO [restartedMain] c.c.m.SpringDataJpaMtbsApplication [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-05-02 12:51:57,699 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-02 12:51:57,799 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 99 ms. Found 7 JPA repository interfaces.
+2023-05-02 12:51:58,738 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2023-05-02 12:51:58,739 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-05-02 12:51:58,739 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-02 12:51:58,819 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-05-02 12:51:58,819 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291] Root WebApplicationContext: initialization completed in 1880 ms
+2023-05-02 12:51:58,996 INFO [restartedMain] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-02 12:51:59,000 WARN [restartedMain] o.h.o.deprecation [MetadataBuilderImpl.java:626] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-05-02 12:51:59,008 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-2 - Starting...
+2023-05-02 12:51:59,040 INFO [restartedMain] c.z.h.p.HikariPool [HikariPool.java:565] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35ca6d68
+2023-05-02 12:51:59,041 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-2 - Start completed.
+2023-05-02 12:51:59,042 INFO [restartedMain] SQL dialect [DialectFactoryImpl.java:66] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-02 12:51:59,042 WARN [restartedMain] o.h.o.deprecation [DialectFactoryImpl.java:73] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-02 12:51:59,577 INFO [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-02 12:51:59,578 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 12:52:00,938 WARN [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:227] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-02 12:52:01,167 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:54] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@22de71aa, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ce90d8c, org.springframework.security.web.context.SecurityContextHolderFilter@4b5bfff2, org.springframework.security.web.header.HeaderWriterFilter@2c86d8e7, org.springframework.web.filter.CorsFilter@322e9f9f, org.springframework.security.web.authentication.logout.LogoutFilter@445de08e, com.cybage.security.jwt.AuthTokenFilter@8f192f0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@762dedb1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6cf65273, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1d2eef30, org.springframework.security.web.session.SessionManagementFilter@68ea99ba, org.springframework.security.web.access.ExceptionTranslationFilter@5d4c10f8, org.springframework.security.web.access.intercept.AuthorizationFilter@11918332]
+2023-05-02 12:52:01,437 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2023-05-02 12:52:01,506 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-02 12:52:01,520 INFO [restartedMain] c.c.m.SpringDataJpaMtbsApplication [StartupInfoLogger.java:57] Started SpringDataJpaMtbsApplication in 5.035 seconds (process running for 114.178)
+2023-05-02 12:52:01,530 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2023-05-02 12:52:08,866 INFO [RMI TCP Connection(11)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [SpringApplicationAdminMXBeanRegistrar.java:159] Application shutdown requested.
+2023-05-02 12:52:08,878 INFO [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2023-05-02 12:52:08,880 WARN [RMI TCP Connection(11)-127.0.0.1] o.a.c.l.WebappClassLoaderBase [DirectJDKLog.java:173] The web application [ROOT] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2023-05-02 12:52:08,885 INFO [RMI TCP Connection(11)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 12:52:08,886 INFO [RMI TCP Connection(11)-127.0.0.1] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-2 - Shutdown initiated...
+2023-05-02 12:52:08,901 INFO [RMI TCP Connection(11)-127.0.0.1] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-2 - Shutdown completed.
+2023-05-02 12:52:23,693 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 8.0.0.Final
+2023-05-02 12:52:23,769 INFO [restartedMain] c.c.m.SpringDataJpaMtbsApplication [StartupInfoLogger.java:51] Starting SpringDataJpaMtbsApplication using Java 17.0.6 with PID 21492 (E:\Demos\MTBS\target\classes started by kalpeshy in E:\Demos\MTBS)
+2023-05-02 12:52:23,771 INFO [restartedMain] c.c.m.SpringDataJpaMtbsApplication [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-05-02 12:52:23,892 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:250] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-02 12:52:23,893 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:250] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-02 12:52:24,982 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-02 12:52:25,092 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 94 ms. Found 7 JPA repository interfaces.
+2023-05-02 12:52:26,765 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2023-05-02 12:52:26,777 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-02 12:52:26,778 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-05-02 12:52:26,778 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-02 12:52:26,938 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-05-02 12:52:26,940 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291] Root WebApplicationContext: initialization completed in 3046 ms
+2023-05-02 12:52:27,208 INFO [restartedMain] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-02 12:52:27,288 INFO [restartedMain] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-05-02 12:52:27,868 WARN [restartedMain] o.h.o.deprecation [MetadataBuilderImpl.java:626] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-05-02 12:52:28,266 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-05-02 12:52:28,819 INFO [restartedMain] c.z.h.p.HikariPool [HikariPool.java:565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c562f26
+2023-05-02 12:52:28,822 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-05-02 12:52:28,845 INFO [restartedMain] SQL dialect [DialectFactoryImpl.java:66] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-02 12:52:28,847 WARN [restartedMain] o.h.o.deprecation [DialectFactoryImpl.java:73] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-02 12:52:30,752 INFO [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-02 12:52:30,766 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 12:52:32,656 WARN [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:227] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-02 12:52:33,176 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:54] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@10d3021e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@538be99, org.springframework.security.web.context.SecurityContextHolderFilter@27f55e2a, org.springframework.security.web.header.HeaderWriterFilter@568a30c4, org.springframework.web.filter.CorsFilter@636ea5d0, org.springframework.security.web.authentication.logout.LogoutFilter@769b4ab5, com.cybage.security.jwt.AuthTokenFilter@414f9088, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9f63ea8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15a84cb7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c7f3ab9, org.springframework.security.web.session.SessionManagementFilter@1e99dbeb, org.springframework.security.web.access.ExceptionTranslationFilter@6a25808d, org.springframework.security.web.access.intercept.AuthorizationFilter@70bcb84d]
+2023-05-02 12:52:33,575 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2023-05-02 12:52:33,641 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-02 12:52:33,687 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-02 12:52:33,710 INFO [restartedMain] c.c.m.SpringDataJpaMtbsApplication [StartupInfoLogger.java:57] Started SpringDataJpaMtbsApplication in 10.547 seconds (process running for 13.055)
+2023-05-02 12:53:06,978 INFO [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [SpringApplicationAdminMXBeanRegistrar.java:159] Application shutdown requested.
+2023-05-02 12:53:06,992 INFO [RMI TCP Connection(2)-127.0.0.1] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
+2023-05-02 12:53:06,993 INFO [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2023-05-02 12:53:06,998 WARN [RMI TCP Connection(2)-127.0.0.1] o.a.c.l.WebappClassLoaderBase [DirectJDKLog.java:173] The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2023-05-02 12:53:06,999 INFO [RMI TCP Connection(2)-127.0.0.1] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2023-05-02 12:53:07,003 INFO [RMI TCP Connection(2)-127.0.0.1] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Destroying ProtocolHandler ["http-nio-8080"]
+2023-05-02 12:53:07,007 INFO [RMI TCP Connection(2)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 12:53:07,012 INFO [RMI TCP Connection(2)-127.0.0.1] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2023-05-02 12:53:07,033 INFO [RMI TCP Connection(2)-127.0.0.1] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2023-05-02 12:53:24,075 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 8.0.0.Final
+2023-05-02 12:53:24,159 INFO [restartedMain] c.c.m.SpringDataJpaMtbsApplication [StartupInfoLogger.java:51] Starting SpringDataJpaMtbsApplication using Java 17.0.6 with PID 18968 (E:\Demos\MTBS\target\classes started by kalpeshy in E:\Demos\MTBS)
+2023-05-02 12:53:24,161 INFO [restartedMain] c.c.m.SpringDataJpaMtbsApplication [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-05-02 12:53:24,289 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:250] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-02 12:53:24,289 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:250] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-02 12:53:26,027 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-02 12:53:26,236 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 177 ms. Found 7 JPA repository interfaces.
+2023-05-02 12:53:29,338 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2023-05-02 12:53:29,360 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-02 12:53:29,362 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-05-02 12:53:29,362 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-02 12:53:29,535 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-05-02 12:53:29,536 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291] Root WebApplicationContext: initialization completed in 5246 ms
+2023-05-02 12:53:29,917 INFO [restartedMain] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-02 12:53:30,033 INFO [restartedMain] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-05-02 12:53:30,395 WARN [restartedMain] o.h.o.deprecation [MetadataBuilderImpl.java:626] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-05-02 12:53:30,626 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-05-02 12:53:31,393 INFO [restartedMain] c.z.h.p.HikariPool [HikariPool.java:565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5bac008c
+2023-05-02 12:53:31,397 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-05-02 12:53:31,434 INFO [restartedMain] SQL dialect [DialectFactoryImpl.java:66] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-02 12:53:31,435 WARN [restartedMain] o.h.o.deprecation [DialectFactoryImpl.java:73] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-02 12:54:50,477 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] HV000001: Hibernate Validator 8.0.0.Final
+2023-05-02 12:54:50,548 INFO [restartedMain] c.c.m.SpringDataJpaMtbsApplication [StartupInfoLogger.java:51] Starting SpringDataJpaMtbsApplication using Java 17.0.6 with PID 12572 (E:\Demos\MTBS\target\classes started by kalpeshy in E:\Demos\MTBS)
+2023-05-02 12:54:50,549 INFO [restartedMain] c.c.m.SpringDataJpaMtbsApplication [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2023-05-02 12:54:50,710 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:250] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-02 12:54:50,710 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:250] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-02 12:54:55,025 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-02 12:54:55,220 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 165 ms. Found 7 JPA repository interfaces.
+2023-05-02 12:54:56,834 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2023-05-02 12:54:56,848 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-02 12:54:56,850 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-05-02 12:54:56,850 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-02 12:54:56,958 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-05-02 12:54:56,960 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291] Root WebApplicationContext: initialization completed in 6249 ms
+2023-05-02 12:54:57,167 INFO [restartedMain] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-02 12:54:57,241 INFO [restartedMain] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-05-02 12:54:57,486 WARN [restartedMain] o.h.o.deprecation [MetadataBuilderImpl.java:626] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-05-02 12:54:57,691 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-05-02 12:54:58,146 INFO [restartedMain] c.z.h.p.HikariPool [HikariPool.java:565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ba64fa
+2023-05-02 12:54:58,149 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-05-02 12:54:58,175 INFO [restartedMain] SQL dialect [DialectFactoryImpl.java:66] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-02 12:54:58,175 WARN [restartedMain] o.h.o.deprecation [DialectFactoryImpl.java:73] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-02 12:54:59,869 INFO [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-02 12:54:59,884 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 12:55:01,846 WARN [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:227] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-02 12:55:02,363 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:54] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3cdd71f4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@344e8671, org.springframework.security.web.context.SecurityContextHolderFilter@40219086, org.springframework.security.web.header.HeaderWriterFilter@4d27abdc, org.springframework.web.filter.CorsFilter@1eae450f, org.springframework.security.web.authentication.logout.LogoutFilter@621165c1, com.cybage.security.jwt.AuthTokenFilter@af6c60c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@df4ed14, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8d0584f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c0a74b5, org.springframework.security.web.session.SessionManagementFilter@2993a3b8, org.springframework.security.web.access.ExceptionTranslationFilter@42f064dc, org.springframework.security.web.access.intercept.AuthorizationFilter@e80c375]
+2023-05-02 12:55:02,668 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2023-05-02 12:55:02,699 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-02 12:55:02,736 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-02 12:55:02,755 INFO [restartedMain] c.c.m.SpringDataJpaMtbsApplication [StartupInfoLogger.java:57] Started SpringDataJpaMtbsApplication in 12.901 seconds (process running for 14.872)
+2023-05-02 12:55:12,318 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-05-02 12:55:12,368 INFO [Thread-5] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-8080"]
+2023-05-02 12:55:12,369 INFO [Thread-5] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2023-05-02 12:55:12,386 WARN [Thread-5] o.a.c.l.WebappClassLoaderBase [DirectJDKLog.java:173] The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2023-05-02 12:55:12,388 INFO [Thread-5] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-8080"]
+2023-05-02 12:55:12,392 INFO [Thread-5] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Destroying ProtocolHandler ["http-nio-8080"]
+2023-05-02 12:55:12,396 INFO [Thread-5] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 12:55:12,400 INFO [Thread-5] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2023-05-02 12:55:12,438 INFO [Thread-5] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
