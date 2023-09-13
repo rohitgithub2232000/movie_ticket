@@ -2190,3 +2190,84 @@ java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\
 2023-09-11T16:18:06.687+05:30  INFO 15368 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-09-11T16:18:06.704+05:30  INFO 15368 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-09-11T16:18:06.730+05:30  INFO 15368 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-13T14:27:04.101+05:30  INFO 10016 --- [restartedMain] c.c.mtbs.SpringDataJpaMtbsApplication    : Starting SpringDataJpaMtbsApplication using Java 20 with PID 10016 (D:\movie-ticket\movie_ticket\backend\MTBS\target\classes started by HP in D:\movie-ticket\movie_ticket\backend\MTBS)
+2023-09-13T14:27:04.210+05:30  INFO 10016 --- [restartedMain] c.c.mtbs.SpringDataJpaMtbsApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-09-13T14:27:04.444+05:30  INFO 10016 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-13T14:27:04.445+05:30  INFO 10016 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-13T14:27:06.633+05:30  INFO 10016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-13T14:27:06.798+05:30  INFO 10016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 136 ms. Found 7 JPA repository interfaces.
+2023-09-13T14:27:09.085+05:30  INFO 10016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-13T14:27:09.088+05:30  INFO 10016 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.37] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-09-13T14:27:09.088+05:30  INFO 10016 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2023-09-13T14:27:09.095+05:30  INFO 10016 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2023-09-13T14:27:09.115+05:30  INFO 10016 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-13T14:27:09.116+05:30  INFO 10016 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-09-13T14:27:09.238+05:30  INFO 10016 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-13T14:27:09.239+05:30  INFO 10016 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4792 ms
+2023-09-13T14:27:09.534+05:30  INFO 10016 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-13T14:27:09.653+05:30  INFO 10016 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-09-13T14:27:09.984+05:30  WARN 10016 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-09-13T14:27:10.242+05:30  INFO 10016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-13T14:27:11.286+05:30  INFO 10016 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e392a67
+2023-09-13T14:27:11.294+05:30  INFO 10016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-13T14:27:11.364+05:30  INFO 10016 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-09-13T14:27:11.364+05:30  WARN 10016 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-09-13T14:27:13.971+05:30  INFO 10016 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-13T14:27:13.988+05:30  INFO 10016 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-13T14:27:16.398+05:30  WARN 10016 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-13T14:27:17.051+05:30  INFO 10016 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4909d427, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@393fcd37, org.springframework.security.web.context.SecurityContextHolderFilter@21c5f87d, org.springframework.security.web.header.HeaderWriterFilter@4da921b8, org.springframework.web.filter.CorsFilter@7516b839, org.springframework.security.web.authentication.logout.LogoutFilter@643bbbf6, com.cdac.security.jwt.AuthTokenFilter@34b64a71, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6bbf5af0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b99d9dd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71b8f116, org.springframework.security.web.session.SessionManagementFilter@565db06d, org.springframework.security.web.access.ExceptionTranslationFilter@4a6a79d6, org.springframework.security.web.access.intercept.AuthorizationFilter@7fb1eee7]
+2023-09-13T14:27:17.378+05:30  INFO 10016 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-13T14:27:17.421+05:30  WARN 10016 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-09-13T14:27:17.425+05:30  INFO 10016 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-13T14:27:17.429+05:30  INFO 10016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-13T14:27:17.441+05:30  INFO 10016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-13T14:27:17.445+05:30  INFO 10016 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-13T14:27:17.578+05:30  INFO 10016 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-13T14:27:17.625+05:30 ERROR 10016 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-09-13T14:36:13.632+05:30  INFO 4696 --- [restartedMain] c.c.mtbs.SpringDataJpaMtbsApplication    : Starting SpringDataJpaMtbsApplication using Java 20 with PID 4696 (D:\movie-ticket\movie_ticket\backend\MTBS\target\classes started by HP in D:\movie-ticket\movie_ticket\backend\MTBS)
+2023-09-13T14:36:13.664+05:30  INFO 4696 --- [restartedMain] c.c.mtbs.SpringDataJpaMtbsApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-09-13T14:36:13.770+05:30  INFO 4696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-13T14:36:13.770+05:30  INFO 4696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-13T14:36:15.510+05:30  INFO 4696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-13T14:36:15.619+05:30  INFO 4696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 7 JPA repository interfaces.
+2023-09-13T14:36:17.367+05:30  INFO 4696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-13T14:36:17.369+05:30  INFO 4696 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.37] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-09-13T14:36:17.370+05:30  INFO 4696 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+2023-09-13T14:36:17.390+05:30  INFO 4696 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+2023-09-13T14:36:17.412+05:30  INFO 4696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-13T14:36:17.413+05:30  INFO 4696 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-09-13T14:36:17.525+05:30  INFO 4696 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-13T14:36:17.526+05:30  INFO 4696 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3754 ms
+2023-09-13T14:36:17.785+05:30  INFO 4696 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-13T14:36:17.926+05:30  INFO 4696 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-09-13T14:36:18.291+05:30  WARN 4696 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-09-13T14:36:18.508+05:30  INFO 4696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-13T14:36:19.384+05:30  INFO 4696 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f5c0ab
+2023-09-13T14:36:19.389+05:30  INFO 4696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-13T14:36:19.432+05:30  INFO 4696 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-09-13T14:36:19.432+05:30  WARN 4696 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-09-13T14:36:21.451+05:30  INFO 4696 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-13T14:36:21.472+05:30  INFO 4696 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-13T14:36:23.346+05:30  WARN 4696 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-13T14:36:23.934+05:30  INFO 4696 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@18ea3b04, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@39afa907, org.springframework.security.web.context.SecurityContextHolderFilter@7d70deff, org.springframework.security.web.header.HeaderWriterFilter@3614bf8, org.springframework.web.filter.CorsFilter@552cb44e, org.springframework.security.web.authentication.logout.LogoutFilter@35e11526, com.cdac.security.jwt.AuthTokenFilter@adb1ee8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66c2f8a1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@509fa3e1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5459e6b1, org.springframework.security.web.session.SessionManagementFilter@11017e04, org.springframework.security.web.access.ExceptionTranslationFilter@17e8d210, org.springframework.security.web.access.intercept.AuthorizationFilter@5c0fbd7b]
+2023-09-13T14:36:24.390+05:30  INFO 4696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-13T14:36:24.461+05:30  INFO 4696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-13T14:36:24.479+05:30  INFO 4696 --- [restartedMain] c.c.mtbs.SpringDataJpaMtbsApplication    : Started SpringDataJpaMtbsApplication in 11.863 seconds (process running for 13.56)
+2023-09-13T14:37:21.641+05:30  INFO 4696 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-13T14:37:21.652+05:30  INFO 4696 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-13T14:37:21.701+05:30  INFO 4696 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
