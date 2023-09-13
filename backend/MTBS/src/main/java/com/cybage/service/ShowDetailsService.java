@@ -1,9 +1,9 @@
-package com.cybage.service;
+package com.cdac.service;
 
 import java.util.List;
 
-import com.cybage.dto.CustomResponse;
-import com.cybage.dto.ShowDetailsDTO;
+import com.cdac.dto.CustomResponse;
+import com.cdac.dto.ShowDetailsDTO;
 
 public interface ShowDetailsService {
 

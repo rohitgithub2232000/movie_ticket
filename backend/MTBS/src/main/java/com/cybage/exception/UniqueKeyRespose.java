@@ -1,4 +1,4 @@
-package com.cybage.exception;
+package com.cdac.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

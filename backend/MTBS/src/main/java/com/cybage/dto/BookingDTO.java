@@ -1,9 +1,9 @@
-package com.cybage.dto;
+package com.cdac.dto;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-import com.cybage.model.BookingStatus;
+import com.cdac.model.BookingStatus;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package com.cybage.model;
+package com.cdac.model;
 
 public enum BookingStatus {
 	CONFIRMED,

@@ -1,4 +1,4 @@
-package com.cybage.security.jwt;
+package com.cdac.security.jwt;
 import java.io.IOException;
 
 import org.slf4j.Logger;
@@ -11,7 +11,7 @@ import org.springframework.security.web.authentication.WebAuthenticationDetailsS
 import org.springframework.util.StringUtils;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.cybage.security.services.UserDetailsServiceImpl;
+import com.cdac.security.services.UserDetailsServiceImpl;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

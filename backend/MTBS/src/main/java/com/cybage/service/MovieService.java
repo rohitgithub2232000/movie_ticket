@@ -1,12 +1,12 @@
-package com.cybage.service;
+package com.cdac.service;
 
 import java.io.IOException;
 import java.util.List;
 
 import org.springframework.web.multipart.MultipartFile;
 
-import com.cybage.dto.MovieDTO;
-import com.cybage.payloads.response.MovieWithImageResponse;
+import com.cdac.dto.MovieDTO;
+import com.cdac.payloads.response.MovieWithImageResponse;
 
 public interface MovieService {
 

@@ -1,4 +1,4 @@
-package com.cybage.serviceImpl;
+package com.cdac.serviceImpl;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -7,13 +7,13 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.cybage.dto.TheatreDTO;
+import com.cdac.dto.TheatreDTO;
 
-import com.cybage.exception.ResourceNotFoundException;
-import com.cybage.model.Theatre;
+import com.cdac.exception.ResourceNotFoundException;
+import com.cdac.model.Theatre;
 
-import com.cybage.repository.TheatreRepository;
-import com.cybage.service.TheatreService;
+import com.cdac.repository.TheatreRepository;
+import com.cdac.service.TheatreService;
 
 @Service
 public class TheatreServiceImpl implements TheatreService {

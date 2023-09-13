@@ -1,4 +1,4 @@
-package com.cybage.model;
+package com.cdac.model;
 
 import java.time.LocalDate;
 import java.time.LocalTime;

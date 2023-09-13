@@ -1,4 +1,4 @@
-package com.cybage.dto;
+package com.cdac.dto;
 
 import java.time.LocalDate;
 

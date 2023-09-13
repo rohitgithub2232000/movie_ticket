@@ -1,4 +1,4 @@
-package com.cybage.controller;
+package com.cdac.controller;
 
 import java.util.List;
 
@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cybage.dto.RatingDTO;
-import com.cybage.exception.ApiResponse;
-import com.cybage.service.RatingService;
+import com.cdac.dto.RatingDTO;
+import com.cdac.exception.ApiResponse;
+import com.cdac.service.RatingService;
 
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;

@@ -1,4 +1,4 @@
-package com.cybage.security.services;
+package com.cdac.security.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -8,8 +8,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.cybage.model.User;
-import com.cybage.repository.UserRepository;
+import com.cdac.model.User;
+import com.cdac.repository.UserRepository;
 
 
 @Service

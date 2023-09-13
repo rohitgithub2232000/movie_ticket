@@ -1,12 +1,12 @@
-package com.cybage.dto;
+package com.cdac.dto;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
-import com.cybage.model.MovieFormat;
-import com.cybage.model.MovieLanguage;
+import com.cdac.model.MovieFormat;
+import com.cdac.model.MovieLanguage;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

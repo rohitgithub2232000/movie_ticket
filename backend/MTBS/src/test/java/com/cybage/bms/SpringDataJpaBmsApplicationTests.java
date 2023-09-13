@@ -1,4 +1,4 @@
-package com.cybage.bms;
+package com.cdac.bms;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

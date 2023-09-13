@@ -1,8 +1,8 @@
-package com.cybage.dto;
+package com.cdac.dto;
 
 import java.util.Set;
 
-import com.cybage.model.Role;
+import com.cdac.model.Role;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

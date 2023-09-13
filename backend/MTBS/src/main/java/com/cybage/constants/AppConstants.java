@@ -1,4 +1,4 @@
-package com.cybage.constants;
+package com.cdac.constants;
 
 public class AppConstants {
 

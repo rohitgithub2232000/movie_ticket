@@ -1,4 +1,4 @@
-package com.cybage.security;
+package com.cdac.security;
 
 import java.util.List;
 
@@ -19,9 +19,9 @@ import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
-import com.cybage.security.jwt.AuthEntryPointJwt;
-import com.cybage.security.jwt.AuthTokenFilter;
-import com.cybage.security.services.UserDetailsServiceImpl;
+import com.cdac.security.jwt.AuthEntryPointJwt;
+import com.cdac.security.jwt.AuthTokenFilter;
+import com.cdac.security.services.UserDetailsServiceImpl;
 
 @SuppressWarnings("deprecation")
 @Configuration

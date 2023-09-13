@@ -1,14 +1,14 @@
-//package com.cybage.security;
-//package com.cybage.security;
+//package com.cdac.security;
+//package com.cdac.security;
 //
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.security.core.userdetails.UserDetails;
 //import org.springframework.security.core.userdetails.UserDetailsService;
 //import org.springframework.security.core.userdetails.UsernameNotFoundException;
 //
-//import com.cybage.exception.ResourceNotFoundException;
-//import com.cybage.model.User;
-//import com.cybage.repository.UserRepository;
+//import com.cdac.exception.ResourceNotFoundException;
+//import com.cdac.model.User;
+//import com.cdac.repository.UserRepository;
 //	
 //public class CustomUserDetailService implements  UserDetailsService{
 // 

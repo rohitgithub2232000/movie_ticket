@@ -1,4 +1,4 @@
-package com.cybage.serviceImpl;
+package com.cdac.serviceImpl;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -10,16 +10,16 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.cybage.dto.CustomResponse;
-import com.cybage.dto.ShowDetailsDTO;
-import com.cybage.exception.ResourceNotFoundException;
-import com.cybage.model.Movie;
-import com.cybage.model.ShowDetails;
-import com.cybage.model.Theatre;
-import com.cybage.repository.MovieRepository;
-import com.cybage.repository.ShowDetailsRepository;
-import com.cybage.repository.TheatreRepository;
-import com.cybage.service.ShowDetailsService;
+import com.cdac.dto.CustomResponse;
+import com.cdac.dto.ShowDetailsDTO;
+import com.cdac.exception.ResourceNotFoundException;
+import com.cdac.model.Movie;
+import com.cdac.model.ShowDetails;
+import com.cdac.model.Theatre;
+import com.cdac.repository.MovieRepository;
+import com.cdac.repository.ShowDetailsRepository;
+import com.cdac.repository.TheatreRepository;
+import com.cdac.service.ShowDetailsService;
 
 @Service
 public class ShowDetailsServiceImpl implements ShowDetailsService {

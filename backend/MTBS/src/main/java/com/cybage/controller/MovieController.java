@@ -1,4 +1,4 @@
-package com.cybage.controller;
+package com.cdac.controller;
 
 import java.io.IOException;
 import java.util.List;
@@ -19,10 +19,10 @@ import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.cybage.dto.MovieDTO;
-import com.cybage.exception.ApiResponse;
-import com.cybage.payloads.response.MovieWithImageResponse;
-import com.cybage.service.MovieService;
+import com.cdac.dto.MovieDTO;
+import com.cdac.exception.ApiResponse;
+import com.cdac.payloads.response.MovieWithImageResponse;
+import com.cdac.service.MovieService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import jakarta.validation.Valid;

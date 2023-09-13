@@ -1,4 +1,4 @@
-package com.cybage.serviceImpl;
+package com.cdac.serviceImpl;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -7,11 +7,11 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.cybage.dto.UserDTO;
-import com.cybage.exception.ResourceNotFoundException;
-import com.cybage.model.User;
-import com.cybage.repository.UserRepository;
-import com.cybage.service.UserService;
+import com.cdac.dto.UserDTO;
+import com.cdac.exception.ResourceNotFoundException;
+import com.cdac.model.User;
+import com.cdac.repository.UserRepository;
+import com.cdac.service.UserService;
 
 @Service
 public class UserServiceImpl implements UserService {

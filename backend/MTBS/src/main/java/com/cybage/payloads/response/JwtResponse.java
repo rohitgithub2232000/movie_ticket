@@ -1,5 +1,5 @@
 
-package com.cybage.payloads.response;
+package com.cdac.payloads.response;
 
 import java.util.List;
 

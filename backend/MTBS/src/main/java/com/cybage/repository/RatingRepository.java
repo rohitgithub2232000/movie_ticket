@@ -1,4 +1,4 @@
-package com.cybage.repository;
+package com.cdac.repository;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.cybage.model.Movie;
-import com.cybage.model.Rating;
-import com.cybage.model.User;
+import com.cdac.model.Movie;
+import com.cdac.model.Rating;
+import com.cdac.model.User;
 
 @Repository
 public interface RatingRepository extends JpaRepository<Rating, Integer> {

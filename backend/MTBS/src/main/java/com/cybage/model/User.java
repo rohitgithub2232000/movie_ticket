@@ -1,4 +1,4 @@
-package com.cybage.model;
+package com.cdac.model;
 
 import java.util.HashSet;
 import java.util.List;

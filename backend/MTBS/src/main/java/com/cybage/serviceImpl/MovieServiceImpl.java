@@ -1,4 +1,4 @@
-package com.cybage.serviceImpl;
+package com.cdac.serviceImpl;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,12 +13,12 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.cybage.dto.MovieDTO;
-import com.cybage.exception.ResourceNotFoundException;
-import com.cybage.model.Movie;
-import com.cybage.payloads.response.MovieWithImageResponse;
-import com.cybage.repository.MovieRepository;
-import com.cybage.service.MovieService;
+import com.cdac.dto.MovieDTO;
+import com.cdac.exception.ResourceNotFoundException;
+import com.cdac.model.Movie;
+import com.cdac.payloads.response.MovieWithImageResponse;
+import com.cdac.repository.MovieRepository;
+import com.cdac.service.MovieService;
 
 @Service
 public class MovieServiceImpl implements MovieService {

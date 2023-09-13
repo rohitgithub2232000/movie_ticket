@@ -1,10 +1,10 @@
-package com.cybage.security.services;
+package com.cdac.security.services;
 
-import com.cybage.payloads.LoginRequest;
-import com.cybage.payloads.PasswordUpdateRequest;
-import com.cybage.payloads.SignUpRequest;
-import com.cybage.payloads.response.JwtResponse;
-import com.cybage.payloads.response.MessageResponse;
+import com.cdac.payloads.LoginRequest;
+import com.cdac.payloads.PasswordUpdateRequest;
+import com.cdac.payloads.SignUpRequest;
+import com.cdac.payloads.response.JwtResponse;
+import com.cdac.payloads.response.MessageResponse;
 
 public interface AuthenticationService {
 	

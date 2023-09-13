@@ -1,4 +1,4 @@
-package com.cybage.security.services;
+package com.cdac.security.services;
 
 import java.util.Collection;
 import java.util.List;
@@ -9,7 +9,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.cybage.model.User;
+import com.cdac.model.User;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import lombok.Getter;

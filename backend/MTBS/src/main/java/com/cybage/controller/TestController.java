@@ -1,4 +1,4 @@
-package com.cybage.controller;
+package com.cdac.controller;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.CrossOrigin;

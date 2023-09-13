@@ -1,8 +1,8 @@
-package com.cybage.service;
+package com.cdac.service;
 
 import java.util.List;
 
-import com.cybage.dto.RatingDTO;
+import com.cdac.dto.RatingDTO;
 
 public interface RatingService {
 

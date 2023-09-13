@@ -1,4 +1,4 @@
-package com.cybage.exception;
+package com.cdac.exception;
 
 import java.time.LocalDate;
 import java.time.LocalTime;

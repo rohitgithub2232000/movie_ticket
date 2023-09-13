@@ -9,7 +9,7 @@
 		<version>3.0.2</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.cybage</groupId>
+	<groupId>com.cdac</groupId>
 	<artifactId>SpringDataJPA_BMS</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringDataJPA_BMS</name>

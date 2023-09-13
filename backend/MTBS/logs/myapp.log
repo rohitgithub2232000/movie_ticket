@@ -35,41 +35,41 @@
 2023-09-10T23:43:23.767+05:30  INFO 17268 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 2023-09-10T23:43:23.781+05:30  INFO 17268 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2023-09-10T23:43:25.272+05:30  WARN 17268 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-10T23:43:25.656+05:30  INFO 17268 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@31d927d4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10489c49, org.springframework.security.web.context.SecurityContextHolderFilter@1f12885b, org.springframework.security.web.header.HeaderWriterFilter@4a3b6b3b, org.springframework.web.filter.CorsFilter@36084ecc, org.springframework.security.web.authentication.logout.LogoutFilter@6c9be95d, com.cybage.security.jwt.AuthTokenFilter@1c92b3f2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ce5ba3a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d190afb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3bb36e0, org.springframework.security.web.session.SessionManagementFilter@35cc975e, org.springframework.security.web.access.ExceptionTranslationFilter@106a3eaf, org.springframework.security.web.access.intercept.AuthorizationFilter@4f9dc5bb]
+2023-09-10T23:43:25.656+05:30  INFO 17268 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@31d927d4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10489c49, org.springframework.security.web.context.SecurityContextHolderFilter@1f12885b, org.springframework.security.web.header.HeaderWriterFilter@4a3b6b3b, org.springframework.web.filter.CorsFilter@36084ecc, org.springframework.security.web.authentication.logout.LogoutFilter@6c9be95d, com.cdac.security.jwt.AuthTokenFilter@1c92b3f2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ce5ba3a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d190afb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3bb36e0, org.springframework.security.web.session.SessionManagementFilter@35cc975e, org.springframework.security.web.access.ExceptionTranslationFilter@106a3eaf, org.springframework.security.web.access.intercept.AuthorizationFilter@4f9dc5bb]
 2023-09-10T23:43:25.952+05:30  INFO 17268 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2023-09-10T23:43:26.121+05:30  INFO 17268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2023-09-10T23:43:26.147+05:30  INFO 17268 --- [restartedMain] c.c.mtbs.SpringDataJpaMtbsApplication    : Started SpringDataJpaMtbsApplication in 8.986 seconds (process running for 10.47)
 2023-09-10T23:43:37.342+05:30  INFO 17268 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-09-10T23:43:37.343+05:30  INFO 17268 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-09-10T23:43:37.345+05:30  INFO 17268 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-09-10T23:45:35.142+05:30  INFO 17268 --- [http-nio-8080-exec-10] c.c.controller.AuthenticationController  : Processing the request for the login for user null in the Class : com.cybage.controller.AuthenticationController  
-2023-09-10T23:45:35.353+05:30  INFO 17268 --- [http-nio-8080-exec-1] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-10T23:45:35.399+05:30  INFO 17268 --- [http-nio-8080-exec-2] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-10T23:46:01.692+05:30  INFO 17268 --- [http-nio-8080-exec-5] com.cybage.controller.MovieController    : Processing the request to find movie with id 1 in the Class : com.cybage.controller.MovieController  
-2023-09-10T23:46:01.715+05:30  INFO 17268 --- [http-nio-8080-exec-6] com.cybage.controller.MovieController    : Processing the request to find movie with id 1 in the Class : com.cybage.controller.MovieController  
-2023-09-10T23:46:07.941+05:30  INFO 17268 --- [http-nio-8080-exec-7] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-10T23:46:07.977+05:30  INFO 17268 --- [http-nio-8080-exec-8] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-10T23:46:13.735+05:30  INFO 17268 --- [http-nio-8080-exec-4] c.cybage.controller.TheatreController    : Processing the request to getAllTheatres  in the Class : com.cybage.controller.TheatreController  
-2023-09-10T23:46:13.777+05:30  INFO 17268 --- [http-nio-8080-exec-5] c.cybage.controller.TheatreController    : Processing the request to getAllTheatres  in the Class : com.cybage.controller.TheatreController  
-2023-09-10T23:46:18.326+05:30  INFO 17268 --- [http-nio-8080-exec-10] c.c.controller.ShowDetailsController     : Processing the request to getAllShowDetails in the Class : com.cybage.controller.ShowDetailsController  
-2023-09-10T23:46:18.425+05:30  INFO 17268 --- [http-nio-8080-exec-7] c.c.controller.ShowDetailsController     : Processing the request to getAllShowDetails in the Class : com.cybage.controller.ShowDetailsController  
-2023-09-10T23:46:36.667+05:30  INFO 17268 --- [http-nio-8080-exec-2] c.cybage.controller.BookingController    : Processing the request to getAllBookings in the Class : com.cybage.controller.BookingController  
-2023-09-10T23:46:36.744+05:30  INFO 17268 --- [http-nio-8080-exec-3] c.cybage.controller.BookingController    : Processing the request to getAllBookings in the Class : com.cybage.controller.BookingController  
-2023-09-10T23:46:39.654+05:30  INFO 17268 --- [http-nio-8080-exec-9] com.cybage.controller.RatingController   : Processing the request to getAllRatings in the Class : com.cybage.controller.RatingController  
-2023-09-10T23:46:39.713+05:30  INFO 17268 --- [http-nio-8080-exec-6] com.cybage.controller.RatingController   : Processing the request to getAllRatings in the Class : com.cybage.controller.RatingController  
-2023-09-10T23:46:50.952+05:30  INFO 17268 --- [http-nio-8080-exec-10] com.cybage.controller.UserController     : Processing the request to getAllUsers in the Class : com.cybage.controller.UserController  
-2023-09-10T23:46:50.985+05:30  INFO 17268 --- [http-nio-8080-exec-7] com.cybage.controller.UserController     : Processing the request to getAllUsers in the Class : com.cybage.controller.UserController  
-2023-09-10T23:47:08.050+05:30  INFO 17268 --- [http-nio-8080-exec-2] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-10T23:47:08.088+05:30  INFO 17268 --- [http-nio-8080-exec-3] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-10T23:47:22.360+05:30  INFO 17268 --- [http-nio-8080-exec-5] c.c.controller.AuthenticationController  : Processing the request for the login for user null in the Class : com.cybage.controller.AuthenticationController  
-2023-09-10T23:47:22.411+05:30  INFO 17268 --- [http-nio-8080-exec-10] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-10T23:47:22.437+05:30  INFO 17268 --- [http-nio-8080-exec-7] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-10T23:47:32.574+05:30  INFO 17268 --- [http-nio-8080-exec-2] com.cybage.controller.MovieController    : Processing the request to find movie with id 1 in the Class : com.cybage.controller.MovieController  
-2023-09-10T23:47:32.599+05:30  INFO 17268 --- [http-nio-8080-exec-3] com.cybage.controller.MovieController    : Processing the request to find movie with id 1 in the Class : com.cybage.controller.MovieController  
-2023-09-10T23:47:36.330+05:30  INFO 17268 --- [http-nio-8080-exec-9] c.c.controller.ShowDetailsController     : Processing the request to getShowDetailsByMovieId with movieId 1 in the Class : com.cybage.controller.ShowDetailsController  
-2023-09-10T23:47:36.377+05:30  INFO 17268 --- [http-nio-8080-exec-6] c.c.controller.ShowDetailsController     : Processing the request to getShowDetailsByMovieId with movieId 1 in the Class : com.cybage.controller.ShowDetailsController  
-2023-09-10T23:47:58.947+05:30  INFO 17268 --- [http-nio-8080-exec-1] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-10T23:47:58.977+05:30  INFO 17268 --- [http-nio-8080-exec-8] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
+2023-09-10T23:45:35.142+05:30  INFO 17268 --- [http-nio-8080-exec-10] c.c.controller.AuthenticationController  : Processing the request for the login for user null in the Class : com.cdac.controller.AuthenticationController  
+2023-09-10T23:45:35.353+05:30  INFO 17268 --- [http-nio-8080-exec-1] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-10T23:45:35.399+05:30  INFO 17268 --- [http-nio-8080-exec-2] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-10T23:46:01.692+05:30  INFO 17268 --- [http-nio-8080-exec-5] com.cdac.controller.MovieController    : Processing the request to find movie with id 1 in the Class : com.cdac.controller.MovieController  
+2023-09-10T23:46:01.715+05:30  INFO 17268 --- [http-nio-8080-exec-6] com.cdac.controller.MovieController    : Processing the request to find movie with id 1 in the Class : com.cdac.controller.MovieController  
+2023-09-10T23:46:07.941+05:30  INFO 17268 --- [http-nio-8080-exec-7] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-10T23:46:07.977+05:30  INFO 17268 --- [http-nio-8080-exec-8] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-10T23:46:13.735+05:30  INFO 17268 --- [http-nio-8080-exec-4] c.cdac.controller.TheatreController    : Processing the request to getAllTheatres  in the Class : com.cdac.controller.TheatreController  
+2023-09-10T23:46:13.777+05:30  INFO 17268 --- [http-nio-8080-exec-5] c.cdac.controller.TheatreController    : Processing the request to getAllTheatres  in the Class : com.cdac.controller.TheatreController  
+2023-09-10T23:46:18.326+05:30  INFO 17268 --- [http-nio-8080-exec-10] c.c.controller.ShowDetailsController     : Processing the request to getAllShowDetails in the Class : com.cdac.controller.ShowDetailsController  
+2023-09-10T23:46:18.425+05:30  INFO 17268 --- [http-nio-8080-exec-7] c.c.controller.ShowDetailsController     : Processing the request to getAllShowDetails in the Class : com.cdac.controller.ShowDetailsController  
+2023-09-10T23:46:36.667+05:30  INFO 17268 --- [http-nio-8080-exec-2] c.cdac.controller.BookingController    : Processing the request to getAllBookings in the Class : com.cdac.controller.BookingController  
+2023-09-10T23:46:36.744+05:30  INFO 17268 --- [http-nio-8080-exec-3] c.cdac.controller.BookingController    : Processing the request to getAllBookings in the Class : com.cdac.controller.BookingController  
+2023-09-10T23:46:39.654+05:30  INFO 17268 --- [http-nio-8080-exec-9] com.cdac.controller.RatingController   : Processing the request to getAllRatings in the Class : com.cdac.controller.RatingController  
+2023-09-10T23:46:39.713+05:30  INFO 17268 --- [http-nio-8080-exec-6] com.cdac.controller.RatingController   : Processing the request to getAllRatings in the Class : com.cdac.controller.RatingController  
+2023-09-10T23:46:50.952+05:30  INFO 17268 --- [http-nio-8080-exec-10] com.cdac.controller.UserController     : Processing the request to getAllUsers in the Class : com.cdac.controller.UserController  
+2023-09-10T23:46:50.985+05:30  INFO 17268 --- [http-nio-8080-exec-7] com.cdac.controller.UserController     : Processing the request to getAllUsers in the Class : com.cdac.controller.UserController  
+2023-09-10T23:47:08.050+05:30  INFO 17268 --- [http-nio-8080-exec-2] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-10T23:47:08.088+05:30  INFO 17268 --- [http-nio-8080-exec-3] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-10T23:47:22.360+05:30  INFO 17268 --- [http-nio-8080-exec-5] c.c.controller.AuthenticationController  : Processing the request for the login for user null in the Class : com.cdac.controller.AuthenticationController  
+2023-09-10T23:47:22.411+05:30  INFO 17268 --- [http-nio-8080-exec-10] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-10T23:47:22.437+05:30  INFO 17268 --- [http-nio-8080-exec-7] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-10T23:47:32.574+05:30  INFO 17268 --- [http-nio-8080-exec-2] com.cdac.controller.MovieController    : Processing the request to find movie with id 1 in the Class : com.cdac.controller.MovieController  
+2023-09-10T23:47:32.599+05:30  INFO 17268 --- [http-nio-8080-exec-3] com.cdac.controller.MovieController    : Processing the request to find movie with id 1 in the Class : com.cdac.controller.MovieController  
+2023-09-10T23:47:36.330+05:30  INFO 17268 --- [http-nio-8080-exec-9] c.c.controller.ShowDetailsController     : Processing the request to getShowDetailsByMovieId with movieId 1 in the Class : com.cdac.controller.ShowDetailsController  
+2023-09-10T23:47:36.377+05:30  INFO 17268 --- [http-nio-8080-exec-6] c.c.controller.ShowDetailsController     : Processing the request to getShowDetailsByMovieId with movieId 1 in the Class : com.cdac.controller.ShowDetailsController  
+2023-09-10T23:47:58.947+05:30  INFO 17268 --- [http-nio-8080-exec-1] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-10T23:47:58.977+05:30  INFO 17268 --- [http-nio-8080-exec-8] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
 2023-09-11T09:41:47.851+05:30  INFO 13368 --- [restartedMain] c.c.mtbs.SpringDataJpaMtbsApplication    : Starting SpringDataJpaMtbsApplication using Java 20 with PID 13368 (D:\project\backend\MTBS\target\classes started by HP in D:\project\backend\MTBS)
 2023-09-11T09:41:47.895+05:30  INFO 13368 --- [restartedMain] c.c.mtbs.SpringDataJpaMtbsApplication    : No active profile set, falling back to 1 default profile: "default"
 2023-09-11T09:41:48.015+05:30  INFO 13368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -234,7 +234,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'movie-ticket'
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.2.jar:3.0.2]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.2.jar:3.0.2]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.2.jar:3.0.2]
-	at com.cybage.mtbs.SpringDataJpaMtbsApplication.main(SpringDataJpaMtbsApplication.java:17) ~[classes/:na]
+	at com.cdac.mtbs.SpringDataJpaMtbsApplication.main(SpringDataJpaMtbsApplication.java:17) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.2.jar:3.0.2]
@@ -385,7 +385,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'movie-ticket'
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.2.jar:3.0.2]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.2.jar:3.0.2]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.2.jar:3.0.2]
-	at com.cybage.mtbs.SpringDataJpaMtbsApplication.main(SpringDataJpaMtbsApplication.java:17) ~[classes/:na]
+	at com.cdac.mtbs.SpringDataJpaMtbsApplication.main(SpringDataJpaMtbsApplication.java:17) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.2.jar:3.0.2]
@@ -543,7 +543,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'movie-ticket'
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.2.jar:3.0.2]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.2.jar:3.0.2]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.2.jar:3.0.2]
-	at com.cybage.mtbs.SpringDataJpaMtbsApplication.main(SpringDataJpaMtbsApplication.java:17) ~[classes/:na]
+	at com.cdac.mtbs.SpringDataJpaMtbsApplication.main(SpringDataJpaMtbsApplication.java:17) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.2.jar:3.0.2]
@@ -551,7 +551,7 @@ java.sql.SQLSyntaxErrorException: Unknown database 'movie-ticket'
 2023-09-11T09:41:57.552+05:30  WARN 13368 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1049, SQLState: 42000
 2023-09-11T09:41:57.554+05:30 ERROR 13368 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unknown database 'movie-ticket'
 2023-09-11T09:41:57.569+05:30 ERROR 13368 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
-2023-09-11T09:41:57.575+05:30 ERROR 13368 --- [restartedMain] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'webSecurityConfig': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'userDetailsServiceImpl': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.cybage.repository.UserRepository defined in @EnableJpaRepositories declared on SpringDataJpaMtbsApplication: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+2023-09-11T09:41:57.575+05:30 ERROR 13368 --- [restartedMain] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'webSecurityConfig': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'userDetailsServiceImpl': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.cdac.repository.UserRepository defined in @EnableJpaRepositories declared on SpringDataJpaMtbsApplication: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
 2023-09-11T09:41:57.663+05:30  INFO 13368 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
 2023-09-11T09:41:57.701+05:30  WARN 13368 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
 2023-09-11T09:41:57.734+05:30  INFO 13368 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
@@ -568,7 +568,7 @@ org.springframework.context.ApplicationContextException: Unable to start web ser
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.2.jar:3.0.2]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.2.jar:3.0.2]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.2.jar:3.0.2]
-	at com.cybage.mtbs.SpringDataJpaMtbsApplication.main(SpringDataJpaMtbsApplication.java:17) ~[classes/:na]
+	at com.cdac.mtbs.SpringDataJpaMtbsApplication.main(SpringDataJpaMtbsApplication.java:17) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.2.jar:3.0.2]
@@ -580,7 +580,7 @@ Caused by: org.springframework.boot.web.server.WebServerException: Unable to sta
 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:183) ~[spring-boot-3.0.2.jar:3.0.2]
 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161) ~[spring-boot-3.0.2.jar:3.0.2]
 	... 11 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSecurityConfig': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'userDetailsServiceImpl': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.cybage.repository.UserRepository defined in @EnableJpaRepositories declared on SpringDataJpaMtbsApplication: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSecurityConfig': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'userDetailsServiceImpl': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.cdac.repository.UserRepository defined in @EnableJpaRepositories declared on SpringDataJpaMtbsApplication: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:712) ~[spring-beans-6.0.4.jar:6.0.4]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:692) ~[spring-beans-6.0.4.jar:6.0.4]
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133) ~[spring-beans-6.0.4.jar:6.0.4]
@@ -634,7 +634,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:485) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
 	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123) ~[spring-boot-3.0.2.jar:3.0.2]
 	... 16 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDetailsServiceImpl': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.cybage.repository.UserRepository defined in @EnableJpaRepositories declared on SpringDataJpaMtbsApplication: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDetailsServiceImpl': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.cdac.repository.UserRepository defined in @EnableJpaRepositories declared on SpringDataJpaMtbsApplication: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:712) ~[spring-beans-6.0.4.jar:6.0.4]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:692) ~[spring-beans-6.0.4.jar:6.0.4]
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133) ~[spring-beans-6.0.4.jar:6.0.4]
@@ -651,7 +651,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325) ~[spring-beans-6.0.4.jar:6.0.4]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:709) ~[spring-beans-6.0.4.jar:6.0.4]
 	... 67 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.cybage.repository.UserRepository defined in @EnableJpaRepositories declared on SpringDataJpaMtbsApplication: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.cdac.repository.UserRepository defined in @EnableJpaRepositories declared on SpringDataJpaMtbsApplication: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377) ~[spring-beans-6.0.4.jar:6.0.4]
 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135) ~[spring-beans-6.0.4.jar:6.0.4]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1663) ~[spring-beans-6.0.4.jar:6.0.4]
@@ -768,7 +768,7 @@ Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'movie-ticket'
 2023-09-11T10:37:55.312+05:30  INFO 3208 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 2023-09-11T10:37:55.326+05:30  INFO 3208 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2023-09-11T10:37:56.624+05:30  WARN 3208 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-11T10:37:56.963+05:30  INFO 3208 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@64f5f7b6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@46acdf4a, org.springframework.security.web.context.SecurityContextHolderFilter@442fd371, org.springframework.security.web.header.HeaderWriterFilter@3e92b00f, org.springframework.web.filter.CorsFilter@6e0a3ae1, org.springframework.security.web.authentication.logout.LogoutFilter@12e2b611, com.cybage.security.jwt.AuthTokenFilter@2e7fffa7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5dd380b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2fef2c6e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@115c77a, org.springframework.security.web.session.SessionManagementFilter@421d7c23, org.springframework.security.web.access.ExceptionTranslationFilter@36433922, org.springframework.security.web.access.intercept.AuthorizationFilter@134637bd]
+2023-09-11T10:37:56.963+05:30  INFO 3208 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@64f5f7b6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@46acdf4a, org.springframework.security.web.context.SecurityContextHolderFilter@442fd371, org.springframework.security.web.header.HeaderWriterFilter@3e92b00f, org.springframework.web.filter.CorsFilter@6e0a3ae1, org.springframework.security.web.authentication.logout.LogoutFilter@12e2b611, com.cdac.security.jwt.AuthTokenFilter@2e7fffa7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5dd380b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2fef2c6e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@115c77a, org.springframework.security.web.session.SessionManagementFilter@421d7c23, org.springframework.security.web.access.ExceptionTranslationFilter@36433922, org.springframework.security.web.access.intercept.AuthorizationFilter@134637bd]
 2023-09-11T10:37:57.516+05:30  INFO 3208 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2023-09-11T10:37:57.577+05:30  INFO 3208 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2023-09-11T10:37:57.591+05:30  INFO 3208 --- [restartedMain] c.c.mtbs.SpringDataJpaMtbsApplication    : Started SpringDataJpaMtbsApplication in 7.511 seconds (process running for 8.524)
@@ -800,7 +800,7 @@ Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'movie-ticket'
 2023-09-11T10:40:49.449+05:30  INFO 22612 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 2023-09-11T10:40:49.471+05:30  INFO 22612 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2023-09-11T10:40:51.819+05:30  WARN 22612 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-11T10:40:52.501+05:30  INFO 22612 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4406d914, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@442fd371, org.springframework.security.web.context.SecurityContextHolderFilter@7808c0cc, org.springframework.security.web.header.HeaderWriterFilter@553c6bea, org.springframework.web.filter.CorsFilter@6dfa53b3, org.springframework.security.web.authentication.logout.LogoutFilter@7548b2f2, com.cybage.security.jwt.AuthTokenFilter@2885c2ec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f55f6e4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46fdc74f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5dd380b9, org.springframework.security.web.session.SessionManagementFilter@19f1f99b, org.springframework.security.web.access.ExceptionTranslationFilter@17233ae8, org.springframework.security.web.access.intercept.AuthorizationFilter@3e77cbde]
+2023-09-11T10:40:52.501+05:30  INFO 22612 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4406d914, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@442fd371, org.springframework.security.web.context.SecurityContextHolderFilter@7808c0cc, org.springframework.security.web.header.HeaderWriterFilter@553c6bea, org.springframework.web.filter.CorsFilter@6dfa53b3, org.springframework.security.web.authentication.logout.LogoutFilter@7548b2f2, com.cdac.security.jwt.AuthTokenFilter@2885c2ec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f55f6e4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46fdc74f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5dd380b9, org.springframework.security.web.session.SessionManagementFilter@19f1f99b, org.springframework.security.web.access.ExceptionTranslationFilter@17233ae8, org.springframework.security.web.access.intercept.AuthorizationFilter@3e77cbde]
 2023-09-11T10:40:52.989+05:30  INFO 22612 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2023-09-11T10:40:53.083+05:30  INFO 22612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2023-09-11T10:40:53.099+05:30  INFO 22612 --- [restartedMain] c.c.mtbs.SpringDataJpaMtbsApplication    : Started SpringDataJpaMtbsApplication in 14.345 seconds (process running for 16.882)
@@ -948,7 +948,7 @@ Unconditional classes:
 2023-09-11T10:42:16.818+05:30  WARN 22612 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
 2023-09-11T10:42:17.837+05:30  INFO 22612 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 2023-09-11T10:42:17.838+05:30  INFO 22612 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-09-11T10:42:18.486+05:30  WARN 22612 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookingController': Unsatisfied dependency expressed through field 'bookingService': Error creating bean with name 'bookingServiceImpl': Unsatisfied dependency expressed through field 'modelMapper': Error creating bean with name 'modelMapper' defined in com.cybage.mtbs.SpringDataJpaMtbsApplication: Failed to instantiate [org.modelmapper.ModelMapper]: Illegal arguments to factory method 'modelMapper'; args: 
+2023-09-11T10:42:18.486+05:30  WARN 22612 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookingController': Unsatisfied dependency expressed through field 'bookingService': Error creating bean with name 'bookingServiceImpl': Unsatisfied dependency expressed through field 'modelMapper': Error creating bean with name 'modelMapper' defined in com.cdac.mtbs.SpringDataJpaMtbsApplication: Failed to instantiate [org.modelmapper.ModelMapper]: Illegal arguments to factory method 'modelMapper'; args: 
 2023-09-11T10:42:18.489+05:30  INFO 22612 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-09-11T10:42:18.493+05:30  INFO 22612 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
 2023-09-11T10:42:18.518+05:30  INFO 22612 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
@@ -958,7 +958,7 @@ Unconditional classes:
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
 2023-09-11T10:42:18.608+05:30 ERROR 22612 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
 
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookingController': Unsatisfied dependency expressed through field 'bookingService': Error creating bean with name 'bookingServiceImpl': Unsatisfied dependency expressed through field 'modelMapper': Error creating bean with name 'modelMapper' defined in com.cybage.mtbs.SpringDataJpaMtbsApplication: Failed to instantiate [org.modelmapper.ModelMapper]: Illegal arguments to factory method 'modelMapper'; args: 
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookingController': Unsatisfied dependency expressed through field 'bookingService': Error creating bean with name 'bookingServiceImpl': Unsatisfied dependency expressed through field 'modelMapper': Error creating bean with name 'modelMapper' defined in com.cdac.mtbs.SpringDataJpaMtbsApplication: Failed to instantiate [org.modelmapper.ModelMapper]: Illegal arguments to factory method 'modelMapper'; args: 
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:712) ~[spring-beans-6.0.4.jar:6.0.4]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:692) ~[spring-beans-6.0.4.jar:6.0.4]
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133) ~[spring-beans-6.0.4.jar:6.0.4]
@@ -979,11 +979,11 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.2.jar:3.0.2]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.2.jar:3.0.2]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.2.jar:3.0.2]
-	at com.cybage.mtbs.SpringDataJpaMtbsApplication.main(SpringDataJpaMtbsApplication.java:17) ~[classes/:na]
+	at com.cdac.mtbs.SpringDataJpaMtbsApplication.main(SpringDataJpaMtbsApplication.java:17) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.2.jar:3.0.2]
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookingServiceImpl': Unsatisfied dependency expressed through field 'modelMapper': Error creating bean with name 'modelMapper' defined in com.cybage.mtbs.SpringDataJpaMtbsApplication: Failed to instantiate [org.modelmapper.ModelMapper]: Illegal arguments to factory method 'modelMapper'; args: 
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookingServiceImpl': Unsatisfied dependency expressed through field 'modelMapper': Error creating bean with name 'modelMapper' defined in com.cdac.mtbs.SpringDataJpaMtbsApplication: Failed to instantiate [org.modelmapper.ModelMapper]: Illegal arguments to factory method 'modelMapper'; args: 
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:712) ~[spring-beans-6.0.4.jar:6.0.4]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:692) ~[spring-beans-6.0.4.jar:6.0.4]
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133) ~[spring-beans-6.0.4.jar:6.0.4]
@@ -1000,7 +1000,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325) ~[spring-beans-6.0.4.jar:6.0.4]
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:709) ~[spring-beans-6.0.4.jar:6.0.4]
 	... 23 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'modelMapper' defined in com.cybage.mtbs.SpringDataJpaMtbsApplication: Failed to instantiate [org.modelmapper.ModelMapper]: Illegal arguments to factory method 'modelMapper'; args: 
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'modelMapper' defined in com.cdac.mtbs.SpringDataJpaMtbsApplication: Failed to instantiate [org.modelmapper.ModelMapper]: Illegal arguments to factory method 'modelMapper'; args: 
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.0.4.jar:6.0.4]
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:491) ~[spring-beans-6.0.4.jar:6.0.4]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324) ~[spring-beans-6.0.4.jar:6.0.4]
@@ -1052,14 +1052,14 @@ Caused by: java.lang.IllegalArgumentException: object is not an instance of decl
 2023-09-11T10:45:40.862+05:30  INFO 18568 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 2023-09-11T10:45:40.885+05:30  INFO 18568 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2023-09-11T10:45:42.010+05:30  WARN 18568 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-11T10:45:42.307+05:30  INFO 18568 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2d74cdfd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@152a8964, org.springframework.security.web.context.SecurityContextHolderFilter@2198a87a, org.springframework.security.web.header.HeaderWriterFilter@68256db4, org.springframework.web.filter.CorsFilter@5dac1240, org.springframework.security.web.authentication.logout.LogoutFilter@39144bba, com.cybage.security.jwt.AuthTokenFilter@70fbe1db, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e77cbde, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@421d7c23, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@134637bd, org.springframework.security.web.session.SessionManagementFilter@d4c73f4, org.springframework.security.web.access.ExceptionTranslationFilter@4c62940a, org.springframework.security.web.access.intercept.AuthorizationFilter@6d5ab780]
+2023-09-11T10:45:42.307+05:30  INFO 18568 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2d74cdfd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@152a8964, org.springframework.security.web.context.SecurityContextHolderFilter@2198a87a, org.springframework.security.web.header.HeaderWriterFilter@68256db4, org.springframework.web.filter.CorsFilter@5dac1240, org.springframework.security.web.authentication.logout.LogoutFilter@39144bba, com.cdac.security.jwt.AuthTokenFilter@70fbe1db, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e77cbde, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@421d7c23, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@134637bd, org.springframework.security.web.session.SessionManagementFilter@d4c73f4, org.springframework.security.web.access.ExceptionTranslationFilter@4c62940a, org.springframework.security.web.access.intercept.AuthorizationFilter@6d5ab780]
 2023-09-11T10:45:42.528+05:30  INFO 18568 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2023-09-11T10:45:42.580+05:30  INFO 18568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2023-09-11T10:45:42.592+05:30  INFO 18568 --- [restartedMain] c.c.mtbs.SpringDataJpaMtbsApplication    : Started SpringDataJpaMtbsApplication in 7.094 seconds (process running for 8.361)
 2023-09-11T11:03:21.390+05:30  INFO 18568 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-09-11T11:03:21.417+05:30  INFO 18568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-09-11T11:03:21.457+05:30  INFO 18568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 37 ms
-2023-09-11T11:56:39.917+05:30  INFO 18568 --- [http-nio-8080-exec-5] c.c.controller.AuthenticationController  : Processing the request for the login for user null in the Class : com.cybage.controller.AuthenticationController  
+2023-09-11T11:56:39.917+05:30  INFO 18568 --- [http-nio-8080-exec-5] c.c.controller.AuthenticationController  : Processing the request for the login for user null in the Class : com.cdac.controller.AuthenticationController  
 2023-09-11T11:57:26.478+05:30  INFO 18568 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
 2023-09-11T11:57:26.634+05:30  INFO 18568 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
 2023-09-11T11:57:26.662+05:30  INFO 18568 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
@@ -1098,7 +1098,7 @@ Caused by: java.lang.IllegalArgumentException: object is not an instance of decl
 2023-09-11T11:57:33.259+05:30  INFO 18568 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 2023-09-11T11:57:33.260+05:30  INFO 18568 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2023-09-11T11:57:34.891+05:30  WARN 18568 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-11T11:57:35.383+05:30  INFO 18568 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@10c4305, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@166d375f, org.springframework.security.web.context.SecurityContextHolderFilter@14ac9d59, org.springframework.security.web.header.HeaderWriterFilter@4bae388, org.springframework.web.filter.CorsFilter@78f6c99, org.springframework.security.web.authentication.logout.LogoutFilter@66836837, com.cybage.security.jwt.AuthTokenFilter@78922c15, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a61e38, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@56531ba7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@13e073c6, org.springframework.security.web.session.SessionManagementFilter@6554be4e, org.springframework.security.web.access.ExceptionTranslationFilter@5648ea6e, org.springframework.security.web.access.intercept.AuthorizationFilter@5dd9245a]
+2023-09-11T11:57:35.383+05:30  INFO 18568 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@10c4305, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@166d375f, org.springframework.security.web.context.SecurityContextHolderFilter@14ac9d59, org.springframework.security.web.header.HeaderWriterFilter@4bae388, org.springframework.web.filter.CorsFilter@78f6c99, org.springframework.security.web.authentication.logout.LogoutFilter@66836837, com.cdac.security.jwt.AuthTokenFilter@78922c15, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a61e38, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@56531ba7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@13e073c6, org.springframework.security.web.session.SessionManagementFilter@6554be4e, org.springframework.security.web.access.ExceptionTranslationFilter@5648ea6e, org.springframework.security.web.access.intercept.AuthorizationFilter@5dd9245a]
 2023-09-11T11:57:35.961+05:30  INFO 18568 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2023-09-11T11:57:36.051+05:30  INFO 18568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2023-09-11T11:57:36.071+05:30  INFO 18568 --- [restartedMain] c.c.mtbs.SpringDataJpaMtbsApplication    : Started SpringDataJpaMtbsApplication in 8.024 seconds (process running for 4321.84)
@@ -1140,7 +1140,7 @@ Caused by: java.lang.IllegalArgumentException: object is not an instance of decl
 2023-09-11T11:57:45.215+05:30  INFO 18568 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 2023-09-11T11:57:45.215+05:30  INFO 18568 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2023-09-11T11:57:47.332+05:30  WARN 18568 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-11T11:57:47.846+05:30  INFO 18568 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@57ed4b33, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@63f627ed, org.springframework.security.web.context.SecurityContextHolderFilter@7570d2c3, org.springframework.security.web.header.HeaderWriterFilter@10877274, org.springframework.web.filter.CorsFilter@25e07c38, org.springframework.security.web.authentication.logout.LogoutFilter@58835db3, com.cybage.security.jwt.AuthTokenFilter@260e47d6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@356bbc1d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ed47c16, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3fac34f3, org.springframework.security.web.session.SessionManagementFilter@3010bce8, org.springframework.security.web.access.ExceptionTranslationFilter@6b4573db, org.springframework.security.web.access.intercept.AuthorizationFilter@1541f2ed]
+2023-09-11T11:57:47.846+05:30  INFO 18568 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@57ed4b33, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@63f627ed, org.springframework.security.web.context.SecurityContextHolderFilter@7570d2c3, org.springframework.security.web.header.HeaderWriterFilter@10877274, org.springframework.web.filter.CorsFilter@25e07c38, org.springframework.security.web.authentication.logout.LogoutFilter@58835db3, com.cdac.security.jwt.AuthTokenFilter@260e47d6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@356bbc1d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ed47c16, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3fac34f3, org.springframework.security.web.session.SessionManagementFilter@3010bce8, org.springframework.security.web.access.ExceptionTranslationFilter@6b4573db, org.springframework.security.web.access.intercept.AuthorizationFilter@1541f2ed]
 2023-09-11T11:57:48.157+05:30  INFO 18568 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2023-09-11T11:57:48.205+05:30  INFO 18568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2023-09-11T11:57:48.220+05:30  INFO 18568 --- [restartedMain] c.c.mtbs.SpringDataJpaMtbsApplication    : Started SpringDataJpaMtbsApplication in 6.399 seconds (process running for 4333.99)
@@ -1158,8 +1158,8 @@ java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\
 	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[na:na]
 	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[na:na]
 	at java.base/java.nio.file.Files.copy(Files.java:3135) ~[na:na]
-	at com.cybage.serviceImpl.MovieServiceImpl.createMovies(MovieServiceImpl.java:64) ~[classes/:na]
-	at com.cybage.controller.MovieController.createMovies(MovieController.java:50) ~[classes/:na]
+	at com.cdac.serviceImpl.MovieServiceImpl.createMovies(MovieServiceImpl.java:64) ~[classes/:na]
+	at com.cdac.controller.MovieController.createMovies(MovieController.java:50) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-6.0.4.jar:6.0.4]
@@ -1170,7 +1170,7 @@ java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.4.jar:6.0.4]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752) ~[spring-aop-6.0.4.jar:6.0.4]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703) ~[spring-aop-6.0.4.jar:6.0.4]
-	at com.cybage.controller.MovieController$$SpringCGLIB$$0.createMovies(<generated>) ~[classes/:na]
+	at com.cdac.controller.MovieController$$SpringCGLIB$$0.createMovies(<generated>) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.4.jar:6.0.4]
@@ -1210,7 +1210,7 @@ java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.1.jar:6.0.1]
 	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.0.1.jar:6.0.1]
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.1.jar:6.0.1]
-	at com.cybage.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:53) ~[classes/:na]
+	at com.cdac.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:53) ~[classes/:na]
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.4.jar:6.0.4]
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.1.jar:6.0.1]
 	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.0.1.jar:6.0.1]
@@ -1259,7 +1259,7 @@ java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
 	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
 
-2023-09-11T11:59:53.988+05:30 ERROR 18568 --- [http-nio-8080-exec-4] c.cybage.security.jwt.AuthEntryPointJwt  : Unauthorized error: Full authentication is required to access this resource
+2023-09-11T11:59:53.988+05:30 ERROR 18568 --- [http-nio-8080-exec-4] c.cdac.security.jwt.AuthEntryPointJwt  : Unauthorized error: Full authentication is required to access this resource
 2023-09-11T12:01:31.877+05:30 ERROR 18568 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
 
 java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\images\th.jpeg
@@ -1270,8 +1270,8 @@ java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\
 	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[na:na]
 	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[na:na]
 	at java.base/java.nio.file.Files.copy(Files.java:3135) ~[na:na]
-	at com.cybage.serviceImpl.MovieServiceImpl.createMovies(MovieServiceImpl.java:64) ~[classes/:na]
-	at com.cybage.controller.MovieController.createMovies(MovieController.java:50) ~[classes/:na]
+	at com.cdac.serviceImpl.MovieServiceImpl.createMovies(MovieServiceImpl.java:64) ~[classes/:na]
+	at com.cdac.controller.MovieController.createMovies(MovieController.java:50) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-6.0.4.jar:6.0.4]
@@ -1282,7 +1282,7 @@ java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.4.jar:6.0.4]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752) ~[spring-aop-6.0.4.jar:6.0.4]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703) ~[spring-aop-6.0.4.jar:6.0.4]
-	at com.cybage.controller.MovieController$$SpringCGLIB$$0.createMovies(<generated>) ~[classes/:na]
+	at com.cdac.controller.MovieController$$SpringCGLIB$$0.createMovies(<generated>) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.4.jar:6.0.4]
@@ -1322,7 +1322,7 @@ java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.1.jar:6.0.1]
 	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.0.1.jar:6.0.1]
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.1.jar:6.0.1]
-	at com.cybage.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:53) ~[classes/:na]
+	at com.cdac.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:53) ~[classes/:na]
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.4.jar:6.0.4]
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.1.jar:6.0.1]
 	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.0.1.jar:6.0.1]
@@ -1371,7 +1371,7 @@ java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
 	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
 
-2023-09-11T12:01:31.888+05:30 ERROR 18568 --- [http-nio-8080-exec-5] c.cybage.security.jwt.AuthEntryPointJwt  : Unauthorized error: Full authentication is required to access this resource
+2023-09-11T12:01:31.888+05:30 ERROR 18568 --- [http-nio-8080-exec-5] c.cdac.security.jwt.AuthEntryPointJwt  : Unauthorized error: Full authentication is required to access this resource
 2023-09-11T12:06:08.258+05:30  INFO 18568 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-09-11T12:06:08.263+05:30  INFO 18568 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
 2023-09-11T12:06:08.303+05:30  INFO 18568 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
@@ -1400,7 +1400,7 @@ java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\
 2023-09-11T15:03:18.101+05:30  INFO 4988 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 2023-09-11T15:03:18.129+05:30  INFO 4988 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2023-09-11T15:03:21.868+05:30  WARN 4988 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-11T15:03:22.965+05:30  INFO 4988 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4a96d8a9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a60083e, org.springframework.security.web.context.SecurityContextHolderFilter@15e1c6b9, org.springframework.security.web.header.HeaderWriterFilter@f7dde3b, org.springframework.web.filter.CorsFilter@5502faa1, org.springframework.security.web.authentication.logout.LogoutFilter@2b7d4ba4, com.cybage.security.jwt.AuthTokenFilter@7e9e6298, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b2ef3db, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3df43e8c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a03c96c, org.springframework.security.web.session.SessionManagementFilter@6dfa53b3, org.springframework.security.web.access.ExceptionTranslationFilter@21d8e8c9, org.springframework.security.web.access.intercept.AuthorizationFilter@46acdf4a]
+2023-09-11T15:03:22.965+05:30  INFO 4988 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4a96d8a9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a60083e, org.springframework.security.web.context.SecurityContextHolderFilter@15e1c6b9, org.springframework.security.web.header.HeaderWriterFilter@f7dde3b, org.springframework.web.filter.CorsFilter@5502faa1, org.springframework.security.web.authentication.logout.LogoutFilter@2b7d4ba4, com.cdac.security.jwt.AuthTokenFilter@7e9e6298, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b2ef3db, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3df43e8c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a03c96c, org.springframework.security.web.session.SessionManagementFilter@6dfa53b3, org.springframework.security.web.access.ExceptionTranslationFilter@21d8e8c9, org.springframework.security.web.access.intercept.AuthorizationFilter@46acdf4a]
 2023-09-11T15:03:23.635+05:30  INFO 4988 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2023-09-11T15:03:23.758+05:30  INFO 4988 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2023-09-11T15:03:23.808+05:30  INFO 4988 --- [restartedMain] c.c.mtbs.SpringDataJpaMtbsApplication    : Started SpringDataJpaMtbsApplication in 19.851 seconds (process running for 22.837)
@@ -1432,16 +1432,16 @@ java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\
 2023-09-11T15:05:28.055+05:30  INFO 8744 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 2023-09-11T15:05:28.082+05:30  INFO 8744 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2023-09-11T15:05:30.426+05:30  WARN 8744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-11T15:05:31.093+05:30  INFO 8744 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@152a8964, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5dac1240, org.springframework.security.web.context.SecurityContextHolderFilter@4fa5ac6e, org.springframework.security.web.header.HeaderWriterFilter@75ae33fa, org.springframework.web.filter.CorsFilter@134637bd, org.springframework.security.web.authentication.logout.LogoutFilter@65bdcc15, com.cybage.security.jwt.AuthTokenFilter@7fd069a3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@421d7c23, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2622c762, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18561b0d, org.springframework.security.web.session.SessionManagementFilter@90f1599, org.springframework.security.web.access.ExceptionTranslationFilter@46a3c0fd, org.springframework.security.web.access.intercept.AuthorizationFilter@6b746756]
+2023-09-11T15:05:31.093+05:30  INFO 8744 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@152a8964, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5dac1240, org.springframework.security.web.context.SecurityContextHolderFilter@4fa5ac6e, org.springframework.security.web.header.HeaderWriterFilter@75ae33fa, org.springframework.web.filter.CorsFilter@134637bd, org.springframework.security.web.authentication.logout.LogoutFilter@65bdcc15, com.cdac.security.jwt.AuthTokenFilter@7fd069a3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@421d7c23, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2622c762, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18561b0d, org.springframework.security.web.session.SessionManagementFilter@90f1599, org.springframework.security.web.access.ExceptionTranslationFilter@46a3c0fd, org.springframework.security.web.access.intercept.AuthorizationFilter@6b746756]
 2023-09-11T15:05:31.582+05:30  INFO 8744 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2023-09-11T15:05:31.658+05:30  INFO 8744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2023-09-11T15:05:31.674+05:30  INFO 8744 --- [restartedMain] c.c.mtbs.SpringDataJpaMtbsApplication    : Started SpringDataJpaMtbsApplication in 12.989 seconds (process running for 14.755)
 2023-09-11T15:05:45.918+05:30  INFO 8744 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-09-11T15:05:45.919+05:30  INFO 8744 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-09-11T15:05:45.922+05:30  INFO 8744 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2023-09-11T15:06:04.489+05:30  INFO 8744 --- [http-nio-8080-exec-5] c.c.controller.AuthenticationController  : Processing the request for the login for user null in the Class : com.cybage.controller.AuthenticationController  
-2023-09-11T15:06:04.781+05:30  INFO 8744 --- [http-nio-8080-exec-8] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T15:06:04.833+05:30  INFO 8744 --- [http-nio-8080-exec-9] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
+2023-09-11T15:06:04.489+05:30  INFO 8744 --- [http-nio-8080-exec-5] c.c.controller.AuthenticationController  : Processing the request for the login for user null in the Class : com.cdac.controller.AuthenticationController  
+2023-09-11T15:06:04.781+05:30  INFO 8744 --- [http-nio-8080-exec-8] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T15:06:04.833+05:30  INFO 8744 --- [http-nio-8080-exec-9] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
 2023-09-11T15:13:07.967+05:30  INFO 8744 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-09-11T15:13:08.152+05:30  INFO 8744 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-09-11T15:13:08.288+05:30  INFO 8744 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
@@ -1470,7 +1470,7 @@ java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\
 2023-09-11T15:15:04.148+05:30  INFO 14432 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 2023-09-11T15:15:04.178+05:30  INFO 14432 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2023-09-11T15:15:08.574+05:30  WARN 14432 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-11T15:15:09.750+05:30  INFO 14432 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2c28220e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b7d4ba4, org.springframework.security.web.context.SecurityContextHolderFilter@e7d5a0d, org.springframework.security.web.header.HeaderWriterFilter@72d2292b, org.springframework.web.filter.CorsFilter@2384b588, org.springframework.security.web.authentication.logout.LogoutFilter@423d9415, com.cybage.security.jwt.AuthTokenFilter@6936e839, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@24441074, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f7dde3b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@41ee9bb9, org.springframework.security.web.session.SessionManagementFilter@36433922, org.springframework.security.web.access.ExceptionTranslationFilter@37b2bf0d, org.springframework.security.web.access.intercept.AuthorizationFilter@12e2b611]
+2023-09-11T15:15:09.750+05:30  INFO 14432 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2c28220e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b7d4ba4, org.springframework.security.web.context.SecurityContextHolderFilter@e7d5a0d, org.springframework.security.web.header.HeaderWriterFilter@72d2292b, org.springframework.web.filter.CorsFilter@2384b588, org.springframework.security.web.authentication.logout.LogoutFilter@423d9415, com.cdac.security.jwt.AuthTokenFilter@6936e839, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@24441074, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f7dde3b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@41ee9bb9, org.springframework.security.web.session.SessionManagementFilter@36433922, org.springframework.security.web.access.ExceptionTranslationFilter@37b2bf0d, org.springframework.security.web.access.intercept.AuthorizationFilter@12e2b611]
 2023-09-11T15:15:10.715+05:30  INFO 14432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2023-09-11T15:15:10.846+05:30  INFO 14432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2023-09-11T15:15:10.875+05:30  INFO 14432 --- [restartedMain] c.c.mtbs.SpringDataJpaMtbsApplication    : Started SpringDataJpaMtbsApplication in 25.265 seconds (process running for 29.684)
@@ -1506,8 +1506,8 @@ jakarta.persistence.NonUniqueResultException: query did not return a unique resu
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.4.jar:6.0.4]
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:218) ~[spring-aop-6.0.4.jar:6.0.4]
 	at jdk.proxy4/jdk.proxy4.$Proxy133.findByName(Unknown Source) ~[na:na]
-	at com.cybage.serviceImpl.AuthenticationServiceImplementation.registerUser(AuthenticationServiceImplementation.java:83) ~[classes/:na]
-	at com.cybage.controller.AuthenticationController.registerUser(AuthenticationController.java:58) ~[classes/:na]
+	at com.cdac.serviceImpl.AuthenticationServiceImplementation.registerUser(AuthenticationServiceImplementation.java:83) ~[classes/:na]
+	at com.cdac.controller.AuthenticationController.registerUser(AuthenticationController.java:58) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.4.jar:6.0.4]
@@ -1547,7 +1547,7 @@ jakarta.persistence.NonUniqueResultException: query did not return a unique resu
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.1.jar:6.0.1]
 	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.0.1.jar:6.0.1]
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.1.jar:6.0.1]
-	at com.cybage.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:53) ~[classes/:na]
+	at com.cdac.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:53) ~[classes/:na]
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.4.jar:6.0.4]
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.1.jar:6.0.1]
 	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.0.1.jar:6.0.1]
@@ -1596,7 +1596,7 @@ jakarta.persistence.NonUniqueResultException: query did not return a unique resu
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
 	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
 
-2023-09-11T15:23:22.348+05:30 ERROR 14432 --- [http-nio-8080-exec-2] c.cybage.security.jwt.AuthEntryPointJwt  : Unauthorized error: Full authentication is required to access this resource
+2023-09-11T15:23:22.348+05:30 ERROR 14432 --- [http-nio-8080-exec-2] c.cdac.security.jwt.AuthEntryPointJwt  : Unauthorized error: Full authentication is required to access this resource
 2023-09-11T15:26:07.795+05:30 ERROR 14432 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.IncorrectResultSizeDataAccessException: query did not return a unique result: 3] with root cause
 
 jakarta.persistence.NonUniqueResultException: query did not return a unique result: 3
@@ -1626,8 +1626,8 @@ jakarta.persistence.NonUniqueResultException: query did not return a unique resu
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.4.jar:6.0.4]
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:218) ~[spring-aop-6.0.4.jar:6.0.4]
 	at jdk.proxy4/jdk.proxy4.$Proxy133.findByName(Unknown Source) ~[na:na]
-	at com.cybage.serviceImpl.AuthenticationServiceImplementation.registerUser(AuthenticationServiceImplementation.java:83) ~[classes/:na]
-	at com.cybage.controller.AuthenticationController.registerUser(AuthenticationController.java:58) ~[classes/:na]
+	at com.cdac.serviceImpl.AuthenticationServiceImplementation.registerUser(AuthenticationServiceImplementation.java:83) ~[classes/:na]
+	at com.cdac.controller.AuthenticationController.registerUser(AuthenticationController.java:58) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.4.jar:6.0.4]
@@ -1667,7 +1667,7 @@ jakarta.persistence.NonUniqueResultException: query did not return a unique resu
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.1.jar:6.0.1]
 	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.0.1.jar:6.0.1]
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.1.jar:6.0.1]
-	at com.cybage.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:53) ~[classes/:na]
+	at com.cdac.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:53) ~[classes/:na]
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.4.jar:6.0.4]
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.1.jar:6.0.1]
 	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.0.1.jar:6.0.1]
@@ -1716,7 +1716,7 @@ jakarta.persistence.NonUniqueResultException: query did not return a unique resu
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
 	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
 
-2023-09-11T15:26:07.811+05:30 ERROR 14432 --- [http-nio-8080-exec-7] c.cybage.security.jwt.AuthEntryPointJwt  : Unauthorized error: Full authentication is required to access this resource
+2023-09-11T15:26:07.811+05:30 ERROR 14432 --- [http-nio-8080-exec-7] c.cdac.security.jwt.AuthEntryPointJwt  : Unauthorized error: Full authentication is required to access this resource
 2023-09-11T15:26:46.879+05:30 ERROR 14432 --- [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.IncorrectResultSizeDataAccessException: query did not return a unique result: 3] with root cause
 
 jakarta.persistence.NonUniqueResultException: query did not return a unique result: 3
@@ -1746,8 +1746,8 @@ jakarta.persistence.NonUniqueResultException: query did not return a unique resu
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.4.jar:6.0.4]
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:218) ~[spring-aop-6.0.4.jar:6.0.4]
 	at jdk.proxy4/jdk.proxy4.$Proxy133.findByName(Unknown Source) ~[na:na]
-	at com.cybage.serviceImpl.AuthenticationServiceImplementation.registerUser(AuthenticationServiceImplementation.java:83) ~[classes/:na]
-	at com.cybage.controller.AuthenticationController.registerUser(AuthenticationController.java:58) ~[classes/:na]
+	at com.cdac.serviceImpl.AuthenticationServiceImplementation.registerUser(AuthenticationServiceImplementation.java:83) ~[classes/:na]
+	at com.cdac.controller.AuthenticationController.registerUser(AuthenticationController.java:58) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.4.jar:6.0.4]
@@ -1787,7 +1787,7 @@ jakarta.persistence.NonUniqueResultException: query did not return a unique resu
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.1.jar:6.0.1]
 	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.0.1.jar:6.0.1]
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.1.jar:6.0.1]
-	at com.cybage.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:53) ~[classes/:na]
+	at com.cdac.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:53) ~[classes/:na]
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.4.jar:6.0.4]
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.1.jar:6.0.1]
 	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.0.1.jar:6.0.1]
@@ -1836,7 +1836,7 @@ jakarta.persistence.NonUniqueResultException: query did not return a unique resu
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
 	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
 
-2023-09-11T15:26:46.886+05:30 ERROR 14432 --- [http-nio-8080-exec-10] c.cybage.security.jwt.AuthEntryPointJwt  : Unauthorized error: Full authentication is required to access this resource
+2023-09-11T15:26:46.886+05:30 ERROR 14432 --- [http-nio-8080-exec-10] c.cdac.security.jwt.AuthEntryPointJwt  : Unauthorized error: Full authentication is required to access this resource
 2023-09-11T15:35:06.472+05:30  INFO 14432 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-09-11T15:35:06.496+05:30  INFO 14432 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-09-11T15:35:06.615+05:30  INFO 14432 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
@@ -1865,18 +1865,18 @@ jakarta.persistence.NonUniqueResultException: query did not return a unique resu
 2023-09-11T15:35:28.455+05:30  INFO 20064 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 2023-09-11T15:35:28.476+05:30  INFO 20064 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2023-09-11T15:35:30.650+05:30  WARN 20064 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-11T15:35:31.294+05:30  INFO 20064 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@47a01dbf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b8c8ebb, org.springframework.security.web.context.SecurityContextHolderFilter@22035c65, org.springframework.security.web.header.HeaderWriterFilter@39076ab, org.springframework.web.filter.CorsFilter@4790cb18, org.springframework.security.web.authentication.logout.LogoutFilter@90f1599, com.cybage.security.jwt.AuthTokenFilter@c8070a5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ff40d42, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c3cae4f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e4e2fb4, org.springframework.security.web.session.SessionManagementFilter@2008f127, org.springframework.security.web.access.ExceptionTranslationFilter@29b36b7f, org.springframework.security.web.access.intercept.AuthorizationFilter@6b2ef3db]
+2023-09-11T15:35:31.294+05:30  INFO 20064 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@47a01dbf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b8c8ebb, org.springframework.security.web.context.SecurityContextHolderFilter@22035c65, org.springframework.security.web.header.HeaderWriterFilter@39076ab, org.springframework.web.filter.CorsFilter@4790cb18, org.springframework.security.web.authentication.logout.LogoutFilter@90f1599, com.cdac.security.jwt.AuthTokenFilter@c8070a5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ff40d42, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c3cae4f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e4e2fb4, org.springframework.security.web.session.SessionManagementFilter@2008f127, org.springframework.security.web.access.ExceptionTranslationFilter@29b36b7f, org.springframework.security.web.access.intercept.AuthorizationFilter@6b2ef3db]
 2023-09-11T15:35:31.704+05:30  INFO 20064 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2023-09-11T15:35:31.791+05:30  INFO 20064 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2023-09-11T15:35:31.810+05:30  INFO 20064 --- [restartedMain] c.c.mtbs.SpringDataJpaMtbsApplication    : Started SpringDataJpaMtbsApplication in 13.706 seconds (process running for 16.192)
 2023-09-11T15:40:49.551+05:30  INFO 20064 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-09-11T15:40:49.554+05:30  INFO 20064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-09-11T15:40:49.560+05:30  INFO 20064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2023-09-11T15:42:46.417+05:30  INFO 20064 --- [http-nio-8080-exec-8] c.c.controller.AuthenticationController  : Processing the request for the login for user null in the Class : com.cybage.controller.AuthenticationController  
-2023-09-11T15:42:46.623+05:30  INFO 20064 --- [http-nio-8080-exec-1] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T15:42:46.701+05:30  INFO 20064 --- [http-nio-8080-exec-2] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T15:42:50.971+05:30  INFO 20064 --- [http-nio-8080-exec-5] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T15:42:51.005+05:30  INFO 20064 --- [http-nio-8080-exec-6] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
+2023-09-11T15:42:46.417+05:30  INFO 20064 --- [http-nio-8080-exec-8] c.c.controller.AuthenticationController  : Processing the request for the login for user null in the Class : com.cdac.controller.AuthenticationController  
+2023-09-11T15:42:46.623+05:30  INFO 20064 --- [http-nio-8080-exec-1] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T15:42:46.701+05:30  INFO 20064 --- [http-nio-8080-exec-2] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T15:42:50.971+05:30  INFO 20064 --- [http-nio-8080-exec-5] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T15:42:51.005+05:30  INFO 20064 --- [http-nio-8080-exec-6] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
 2023-09-11T15:44:50.674+05:30 ERROR 20064 --- [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
 
 java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\images\th.jpeg
@@ -1887,8 +1887,8 @@ java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\
 	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[na:na]
 	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[na:na]
 	at java.base/java.nio.file.Files.copy(Files.java:3135) ~[na:na]
-	at com.cybage.serviceImpl.MovieServiceImpl.createMovies(MovieServiceImpl.java:64) ~[classes/:na]
-	at com.cybage.controller.MovieController.createMovies(MovieController.java:50) ~[classes/:na]
+	at com.cdac.serviceImpl.MovieServiceImpl.createMovies(MovieServiceImpl.java:64) ~[classes/:na]
+	at com.cdac.controller.MovieController.createMovies(MovieController.java:50) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-6.0.4.jar:6.0.4]
@@ -1899,7 +1899,7 @@ java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.4.jar:6.0.4]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752) ~[spring-aop-6.0.4.jar:6.0.4]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703) ~[spring-aop-6.0.4.jar:6.0.4]
-	at com.cybage.controller.MovieController$$SpringCGLIB$$0.createMovies(<generated>) ~[classes/:na]
+	at com.cdac.controller.MovieController$$SpringCGLIB$$0.createMovies(<generated>) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.4.jar:6.0.4]
@@ -1939,7 +1939,7 @@ java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.1.jar:6.0.1]
 	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.0.1.jar:6.0.1]
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.1.jar:6.0.1]
-	at com.cybage.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:53) ~[classes/:na]
+	at com.cdac.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:53) ~[classes/:na]
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.4.jar:6.0.4]
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.1.jar:6.0.1]
 	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.0.1.jar:6.0.1]
@@ -1988,7 +1988,7 @@ java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
 	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
 
-2023-09-11T15:44:50.703+05:30 ERROR 20064 --- [http-nio-8080-exec-10] c.cybage.security.jwt.AuthEntryPointJwt  : Unauthorized error: Full authentication is required to access this resource
+2023-09-11T15:44:50.703+05:30 ERROR 20064 --- [http-nio-8080-exec-10] c.cdac.security.jwt.AuthEntryPointJwt  : Unauthorized error: Full authentication is required to access this resource
 2023-09-11T15:46:21.215+05:30 ERROR 20064 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
 
 java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\images\Jawan.jpeg
@@ -1999,8 +1999,8 @@ java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\
 	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[na:na]
 	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[na:na]
 	at java.base/java.nio.file.Files.copy(Files.java:3135) ~[na:na]
-	at com.cybage.serviceImpl.MovieServiceImpl.createMovies(MovieServiceImpl.java:64) ~[classes/:na]
-	at com.cybage.controller.MovieController.createMovies(MovieController.java:50) ~[classes/:na]
+	at com.cdac.serviceImpl.MovieServiceImpl.createMovies(MovieServiceImpl.java:64) ~[classes/:na]
+	at com.cdac.controller.MovieController.createMovies(MovieController.java:50) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-6.0.4.jar:6.0.4]
@@ -2011,7 +2011,7 @@ java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.4.jar:6.0.4]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752) ~[spring-aop-6.0.4.jar:6.0.4]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703) ~[spring-aop-6.0.4.jar:6.0.4]
-	at com.cybage.controller.MovieController$$SpringCGLIB$$0.createMovies(<generated>) ~[classes/:na]
+	at com.cdac.controller.MovieController$$SpringCGLIB$$0.createMovies(<generated>) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.4.jar:6.0.4]
@@ -2051,7 +2051,7 @@ java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.1.jar:6.0.1]
 	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.0.1.jar:6.0.1]
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.1.jar:6.0.1]
-	at com.cybage.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:53) ~[classes/:na]
+	at com.cdac.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:53) ~[classes/:na]
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.4.jar:6.0.4]
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.1.jar:6.0.1]
 	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.0.1.jar:6.0.1]
@@ -2100,7 +2100,7 @@ java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
 	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
 
-2023-09-11T15:46:21.225+05:30 ERROR 20064 --- [http-nio-8080-exec-2] c.cybage.security.jwt.AuthEntryPointJwt  : Unauthorized error: Full authentication is required to access this resource
+2023-09-11T15:46:21.225+05:30 ERROR 20064 --- [http-nio-8080-exec-2] c.cdac.security.jwt.AuthEntryPointJwt  : Unauthorized error: Full authentication is required to access this resource
 2023-09-11T15:53:40.372+05:30  INFO 20064 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-09-11T15:53:40.379+05:30  INFO 20064 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-09-11T15:53:40.407+05:30  INFO 20064 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
@@ -2129,64 +2129,64 @@ java.nio.file.NoSuchFileException: E:\Demos\Frontend\MTBS\mtbs-app\build\assets\
 2023-09-11T15:53:58.816+05:30  INFO 15368 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 2023-09-11T15:53:58.840+05:30  INFO 15368 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2023-09-11T15:54:01.925+05:30  WARN 15368 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-11T15:54:02.796+05:30  INFO 15368 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@69794608, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3eac700a, org.springframework.security.web.context.SecurityContextHolderFilter@19e23d2, org.springframework.security.web.header.HeaderWriterFilter@5b8c8ebb, org.springframework.web.filter.CorsFilter@50d41c24, org.springframework.security.web.authentication.logout.LogoutFilter@6ac0515, com.cybage.security.jwt.AuthTokenFilter@a91c4a9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65bdcc15, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@38e4ce3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@401134ea, org.springframework.security.web.session.SessionManagementFilter@2e22c211, org.springframework.security.web.access.ExceptionTranslationFilter@26bbf385, org.springframework.security.web.access.intercept.AuthorizationFilter@74a0904]
+2023-09-11T15:54:02.796+05:30  INFO 15368 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@69794608, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3eac700a, org.springframework.security.web.context.SecurityContextHolderFilter@19e23d2, org.springframework.security.web.header.HeaderWriterFilter@5b8c8ebb, org.springframework.web.filter.CorsFilter@50d41c24, org.springframework.security.web.authentication.logout.LogoutFilter@6ac0515, com.cdac.security.jwt.AuthTokenFilter@a91c4a9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65bdcc15, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@38e4ce3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@401134ea, org.springframework.security.web.session.SessionManagementFilter@2e22c211, org.springframework.security.web.access.ExceptionTranslationFilter@26bbf385, org.springframework.security.web.access.intercept.AuthorizationFilter@74a0904]
 2023-09-11T15:54:03.396+05:30  INFO 15368 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2023-09-11T15:54:03.503+05:30  INFO 15368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2023-09-11T15:54:03.537+05:30  INFO 15368 --- [restartedMain] c.c.mtbs.SpringDataJpaMtbsApplication    : Started SpringDataJpaMtbsApplication in 16.886 seconds (process running for 19.103)
 2023-09-11T15:54:21.281+05:30  INFO 15368 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-09-11T15:54:21.281+05:30  INFO 15368 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-09-11T15:54:21.284+05:30  INFO 15368 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2023-09-11T15:54:22.339+05:30  INFO 15368 --- [http-nio-8080-exec-1] com.cybage.controller.MovieController    : Processing the request to createMovie in the Class : com.cybage.controller.MovieController  
-2023-09-11T15:54:22.512+05:30  INFO 15368 --- [http-nio-8080-exec-4] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T15:54:22.558+05:30  INFO 15368 --- [http-nio-8080-exec-3] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T15:54:27.968+05:30  INFO 15368 --- [http-nio-8080-exec-6] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T15:54:28.013+05:30  INFO 15368 --- [http-nio-8080-exec-8] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T15:54:46.602+05:30  INFO 15368 --- [http-nio-8080-exec-2] com.cybage.controller.UserController     : Processing the request to getAllUsers in the Class : com.cybage.controller.UserController  
-2023-09-11T15:54:46.649+05:30  INFO 15368 --- [http-nio-8080-exec-1] com.cybage.controller.UserController     : Processing the request to getAllUsers in the Class : com.cybage.controller.UserController  
-2023-09-11T15:55:23.394+05:30  INFO 15368 --- [http-nio-8080-exec-7] c.c.controller.AuthenticationController  : Processing the request for the login for user null in the Class : com.cybage.controller.AuthenticationController  
-2023-09-11T15:55:23.493+05:30  INFO 15368 --- [http-nio-8080-exec-9] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T15:55:23.542+05:30  INFO 15368 --- [http-nio-8080-exec-10] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T15:55:36.949+05:30  INFO 15368 --- [http-nio-8080-exec-4] c.cybage.controller.BookingController    : Processing the request to getAllBookingsForUser for user  null in the Class : com.cybage.controller.BookingController  
-2023-09-11T15:55:36.993+05:30  INFO 15368 --- [http-nio-8080-exec-7] c.cybage.controller.BookingController    : Processing the request to getAllBookingsForUser for user  null in the Class : com.cybage.controller.BookingController  
-2023-09-11T15:55:43.308+05:30  INFO 15368 --- [http-nio-8080-exec-1] com.cybage.controller.RatingController   : Processing the request to getAllRatingsForUser - null in the Class : com.cybage.controller.RatingController  
-2023-09-11T15:55:43.330+05:30  INFO 15368 --- [http-nio-8080-exec-2] com.cybage.controller.RatingController   : Processing the request to getAllRatingsForUser - null in the Class : com.cybage.controller.RatingController  
-2023-09-11T15:55:48.207+05:30  INFO 15368 --- [http-nio-8080-exec-4] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T15:55:48.236+05:30  INFO 15368 --- [http-nio-8080-exec-7] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T16:12:21.609+05:30  INFO 15368 --- [http-nio-8080-exec-5] c.c.controller.AuthenticationController  : Processing the request for the login for user null in the Class : com.cybage.controller.AuthenticationController  
-2023-09-11T16:12:21.666+05:30  INFO 15368 --- [http-nio-8080-exec-7] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T16:12:21.714+05:30  INFO 15368 --- [http-nio-8080-exec-7] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T16:12:42.825+05:30  INFO 15368 --- [http-nio-8080-exec-10] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T16:12:42.877+05:30  INFO 15368 --- [http-nio-8080-exec-1] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T16:12:51.385+05:30  INFO 15368 --- [http-nio-8080-exec-3] com.cybage.controller.MovieController    : Processing the request to find movie with id 1 in the Class : com.cybage.controller.MovieController  
-2023-09-11T16:12:51.419+05:30  INFO 15368 --- [http-nio-8080-exec-4] com.cybage.controller.MovieController    : Processing the request to find movie with id 1 in the Class : com.cybage.controller.MovieController  
-2023-09-11T16:13:05.434+05:30  INFO 15368 --- [http-nio-8080-exec-7] com.cybage.controller.RatingController   : Processing the request to createRating for movieId 1 by user ashwini in the Class : com.cybage.controller.RatingController  
-2023-09-11T16:13:07.458+05:30  INFO 15368 --- [http-nio-8080-exec-10] com.cybage.controller.RatingController   : Processing the request to getAllRatingsForUser - ashwini in the Class : com.cybage.controller.RatingController  
-2023-09-11T16:13:07.577+05:30  INFO 15368 --- [http-nio-8080-exec-1] com.cybage.controller.RatingController   : Processing the request to getAllRatingsForUser - ashwini in the Class : com.cybage.controller.RatingController  
-2023-09-11T16:13:15.459+05:30  INFO 15368 --- [http-nio-8080-exec-3] c.cybage.controller.BookingController    : Processing the request to getAllBookingsForUser for user  ashwini in the Class : com.cybage.controller.BookingController  
-2023-09-11T16:13:15.507+05:30  INFO 15368 --- [http-nio-8080-exec-4] c.cybage.controller.BookingController    : Processing the request to getAllBookingsForUser for user  ashwini in the Class : com.cybage.controller.BookingController  
-2023-09-11T16:13:17.223+05:30  INFO 15368 --- [http-nio-8080-exec-8] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T16:13:17.258+05:30  INFO 15368 --- [http-nio-8080-exec-9] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T16:13:20.115+05:30  INFO 15368 --- [http-nio-8080-exec-2] com.cybage.controller.MovieController    : Processing the request to find movie with id 1 in the Class : com.cybage.controller.MovieController  
-2023-09-11T16:13:20.151+05:30  INFO 15368 --- [http-nio-8080-exec-5] com.cybage.controller.MovieController    : Processing the request to find movie with id 1 in the Class : com.cybage.controller.MovieController  
-2023-09-11T16:13:21.985+05:30  INFO 15368 --- [http-nio-8080-exec-6] c.c.controller.ShowDetailsController     : Processing the request to getShowDetailsByMovieId with movieId 1 in the Class : com.cybage.controller.ShowDetailsController  
-2023-09-11T16:13:22.026+05:30  INFO 15368 --- [http-nio-8080-exec-7] c.c.controller.ShowDetailsController     : Processing the request to getShowDetailsByMovieId with movieId 1 in the Class : com.cybage.controller.ShowDetailsController  
-2023-09-11T16:15:20.960+05:30  INFO 15368 --- [http-nio-8080-exec-1] c.c.controller.AuthenticationController  : Processing the request for the login for user null in the Class : com.cybage.controller.AuthenticationController  
-2023-09-11T16:15:21.055+05:30  INFO 15368 --- [http-nio-8080-exec-3] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T16:15:21.095+05:30  INFO 15368 --- [http-nio-8080-exec-4] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T16:15:23.246+05:30  INFO 15368 --- [http-nio-8080-exec-8] c.cybage.controller.TheatreController    : Processing the request to getAllTheatres  in the Class : com.cybage.controller.TheatreController  
-2023-09-11T16:15:23.270+05:30  INFO 15368 --- [http-nio-8080-exec-9] c.cybage.controller.TheatreController    : Processing the request to getAllTheatres  in the Class : com.cybage.controller.TheatreController  
-2023-09-11T16:15:35.038+05:30  INFO 15368 --- [http-nio-8080-exec-1] c.cybage.controller.TheatreController    : Processing the request to createTheatre in the Class : com.cybage.controller.TheatreController  
-2023-09-11T16:15:35.092+05:30  INFO 15368 --- [http-nio-8080-exec-2] c.cybage.controller.TheatreController    : Processing the request to getAllTheatres  in the Class : com.cybage.controller.TheatreController  
-2023-09-11T16:15:35.120+05:30  INFO 15368 --- [http-nio-8080-exec-5] c.cybage.controller.TheatreController    : Processing the request to getAllTheatres  in the Class : com.cybage.controller.TheatreController  
-2023-09-11T16:15:39.030+05:30  INFO 15368 --- [http-nio-8080-exec-7] c.c.controller.ShowDetailsController     : Processing the request to getAllShowDetails in the Class : com.cybage.controller.ShowDetailsController  
-2023-09-11T16:15:39.079+05:30  INFO 15368 --- [http-nio-8080-exec-6] c.c.controller.ShowDetailsController     : Processing the request to getAllShowDetails in the Class : com.cybage.controller.ShowDetailsController  
-2023-09-11T16:15:41.010+05:30  INFO 15368 --- [http-nio-8080-exec-2] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T16:15:41.013+05:30  INFO 15368 --- [http-nio-8080-exec-5] c.cybage.controller.TheatreController    : Processing the request to getAllTheatres  in the Class : com.cybage.controller.TheatreController  
-2023-09-11T16:15:41.048+05:30  INFO 15368 --- [http-nio-8080-exec-4] com.cybage.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cybage.controller.MovieController  
-2023-09-11T16:15:41.054+05:30  INFO 15368 --- [http-nio-8080-exec-3] c.cybage.controller.TheatreController    : Processing the request to getAllTheatres  in the Class : com.cybage.controller.TheatreController  
-2023-09-11T16:16:24.582+05:30  INFO 15368 --- [http-nio-8080-exec-10] c.c.controller.ShowDetailsController     : Processing the request to createShowDetails with movieId-1 theatreId- 1 in the Class : com.cybage.controller.ShowDetailsController  
-2023-09-11T16:16:24.673+05:30  INFO 15368 --- [http-nio-8080-exec-5] c.c.controller.ShowDetailsController     : Processing the request to getAllShowDetails in the Class : com.cybage.controller.ShowDetailsController  
-2023-09-11T16:16:24.718+05:30  INFO 15368 --- [http-nio-8080-exec-4] c.c.controller.ShowDetailsController     : Processing the request to getAllShowDetails in the Class : com.cybage.controller.ShowDetailsController  
+2023-09-11T15:54:22.339+05:30  INFO 15368 --- [http-nio-8080-exec-1] com.cdac.controller.MovieController    : Processing the request to createMovie in the Class : com.cdac.controller.MovieController  
+2023-09-11T15:54:22.512+05:30  INFO 15368 --- [http-nio-8080-exec-4] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T15:54:22.558+05:30  INFO 15368 --- [http-nio-8080-exec-3] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T15:54:27.968+05:30  INFO 15368 --- [http-nio-8080-exec-6] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T15:54:28.013+05:30  INFO 15368 --- [http-nio-8080-exec-8] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T15:54:46.602+05:30  INFO 15368 --- [http-nio-8080-exec-2] com.cdac.controller.UserController     : Processing the request to getAllUsers in the Class : com.cdac.controller.UserController  
+2023-09-11T15:54:46.649+05:30  INFO 15368 --- [http-nio-8080-exec-1] com.cdac.controller.UserController     : Processing the request to getAllUsers in the Class : com.cdac.controller.UserController  
+2023-09-11T15:55:23.394+05:30  INFO 15368 --- [http-nio-8080-exec-7] c.c.controller.AuthenticationController  : Processing the request for the login for user null in the Class : com.cdac.controller.AuthenticationController  
+2023-09-11T15:55:23.493+05:30  INFO 15368 --- [http-nio-8080-exec-9] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T15:55:23.542+05:30  INFO 15368 --- [http-nio-8080-exec-10] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T15:55:36.949+05:30  INFO 15368 --- [http-nio-8080-exec-4] c.cdac.controller.BookingController    : Processing the request to getAllBookingsForUser for user  null in the Class : com.cdac.controller.BookingController  
+2023-09-11T15:55:36.993+05:30  INFO 15368 --- [http-nio-8080-exec-7] c.cdac.controller.BookingController    : Processing the request to getAllBookingsForUser for user  null in the Class : com.cdac.controller.BookingController  
+2023-09-11T15:55:43.308+05:30  INFO 15368 --- [http-nio-8080-exec-1] com.cdac.controller.RatingController   : Processing the request to getAllRatingsForUser - null in the Class : com.cdac.controller.RatingController  
+2023-09-11T15:55:43.330+05:30  INFO 15368 --- [http-nio-8080-exec-2] com.cdac.controller.RatingController   : Processing the request to getAllRatingsForUser - null in the Class : com.cdac.controller.RatingController  
+2023-09-11T15:55:48.207+05:30  INFO 15368 --- [http-nio-8080-exec-4] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T15:55:48.236+05:30  INFO 15368 --- [http-nio-8080-exec-7] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T16:12:21.609+05:30  INFO 15368 --- [http-nio-8080-exec-5] c.c.controller.AuthenticationController  : Processing the request for the login for user null in the Class : com.cdac.controller.AuthenticationController  
+2023-09-11T16:12:21.666+05:30  INFO 15368 --- [http-nio-8080-exec-7] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T16:12:21.714+05:30  INFO 15368 --- [http-nio-8080-exec-7] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T16:12:42.825+05:30  INFO 15368 --- [http-nio-8080-exec-10] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T16:12:42.877+05:30  INFO 15368 --- [http-nio-8080-exec-1] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T16:12:51.385+05:30  INFO 15368 --- [http-nio-8080-exec-3] com.cdac.controller.MovieController    : Processing the request to find movie with id 1 in the Class : com.cdac.controller.MovieController  
+2023-09-11T16:12:51.419+05:30  INFO 15368 --- [http-nio-8080-exec-4] com.cdac.controller.MovieController    : Processing the request to find movie with id 1 in the Class : com.cdac.controller.MovieController  
+2023-09-11T16:13:05.434+05:30  INFO 15368 --- [http-nio-8080-exec-7] com.cdac.controller.RatingController   : Processing the request to createRating for movieId 1 by user ashwini in the Class : com.cdac.controller.RatingController  
+2023-09-11T16:13:07.458+05:30  INFO 15368 --- [http-nio-8080-exec-10] com.cdac.controller.RatingController   : Processing the request to getAllRatingsForUser - ashwini in the Class : com.cdac.controller.RatingController  
+2023-09-11T16:13:07.577+05:30  INFO 15368 --- [http-nio-8080-exec-1] com.cdac.controller.RatingController   : Processing the request to getAllRatingsForUser - ashwini in the Class : com.cdac.controller.RatingController  
+2023-09-11T16:13:15.459+05:30  INFO 15368 --- [http-nio-8080-exec-3] c.cdac.controller.BookingController    : Processing the request to getAllBookingsForUser for user  ashwini in the Class : com.cdac.controller.BookingController  
+2023-09-11T16:13:15.507+05:30  INFO 15368 --- [http-nio-8080-exec-4] c.cdac.controller.BookingController    : Processing the request to getAllBookingsForUser for user  ashwini in the Class : com.cdac.controller.BookingController  
+2023-09-11T16:13:17.223+05:30  INFO 15368 --- [http-nio-8080-exec-8] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T16:13:17.258+05:30  INFO 15368 --- [http-nio-8080-exec-9] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T16:13:20.115+05:30  INFO 15368 --- [http-nio-8080-exec-2] com.cdac.controller.MovieController    : Processing the request to find movie with id 1 in the Class : com.cdac.controller.MovieController  
+2023-09-11T16:13:20.151+05:30  INFO 15368 --- [http-nio-8080-exec-5] com.cdac.controller.MovieController    : Processing the request to find movie with id 1 in the Class : com.cdac.controller.MovieController  
+2023-09-11T16:13:21.985+05:30  INFO 15368 --- [http-nio-8080-exec-6] c.c.controller.ShowDetailsController     : Processing the request to getShowDetailsByMovieId with movieId 1 in the Class : com.cdac.controller.ShowDetailsController  
+2023-09-11T16:13:22.026+05:30  INFO 15368 --- [http-nio-8080-exec-7] c.c.controller.ShowDetailsController     : Processing the request to getShowDetailsByMovieId with movieId 1 in the Class : com.cdac.controller.ShowDetailsController  
+2023-09-11T16:15:20.960+05:30  INFO 15368 --- [http-nio-8080-exec-1] c.c.controller.AuthenticationController  : Processing the request for the login for user null in the Class : com.cdac.controller.AuthenticationController  
+2023-09-11T16:15:21.055+05:30  INFO 15368 --- [http-nio-8080-exec-3] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T16:15:21.095+05:30  INFO 15368 --- [http-nio-8080-exec-4] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T16:15:23.246+05:30  INFO 15368 --- [http-nio-8080-exec-8] c.cdac.controller.TheatreController    : Processing the request to getAllTheatres  in the Class : com.cdac.controller.TheatreController  
+2023-09-11T16:15:23.270+05:30  INFO 15368 --- [http-nio-8080-exec-9] c.cdac.controller.TheatreController    : Processing the request to getAllTheatres  in the Class : com.cdac.controller.TheatreController  
+2023-09-11T16:15:35.038+05:30  INFO 15368 --- [http-nio-8080-exec-1] c.cdac.controller.TheatreController    : Processing the request to createTheatre in the Class : com.cdac.controller.TheatreController  
+2023-09-11T16:15:35.092+05:30  INFO 15368 --- [http-nio-8080-exec-2] c.cdac.controller.TheatreController    : Processing the request to getAllTheatres  in the Class : com.cdac.controller.TheatreController  
+2023-09-11T16:15:35.120+05:30  INFO 15368 --- [http-nio-8080-exec-5] c.cdac.controller.TheatreController    : Processing the request to getAllTheatres  in the Class : com.cdac.controller.TheatreController  
+2023-09-11T16:15:39.030+05:30  INFO 15368 --- [http-nio-8080-exec-7] c.c.controller.ShowDetailsController     : Processing the request to getAllShowDetails in the Class : com.cdac.controller.ShowDetailsController  
+2023-09-11T16:15:39.079+05:30  INFO 15368 --- [http-nio-8080-exec-6] c.c.controller.ShowDetailsController     : Processing the request to getAllShowDetails in the Class : com.cdac.controller.ShowDetailsController  
+2023-09-11T16:15:41.010+05:30  INFO 15368 --- [http-nio-8080-exec-2] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T16:15:41.013+05:30  INFO 15368 --- [http-nio-8080-exec-5] c.cdac.controller.TheatreController    : Processing the request to getAllTheatres  in the Class : com.cdac.controller.TheatreController  
+2023-09-11T16:15:41.048+05:30  INFO 15368 --- [http-nio-8080-exec-4] com.cdac.controller.MovieController    : Processing the request to getAllMovies in the Class : com.cdac.controller.MovieController  
+2023-09-11T16:15:41.054+05:30  INFO 15368 --- [http-nio-8080-exec-3] c.cdac.controller.TheatreController    : Processing the request to getAllTheatres  in the Class : com.cdac.controller.TheatreController  
+2023-09-11T16:16:24.582+05:30  INFO 15368 --- [http-nio-8080-exec-10] c.c.controller.ShowDetailsController     : Processing the request to createShowDetails with movieId-1 theatreId- 1 in the Class : com.cdac.controller.ShowDetailsController  
+2023-09-11T16:16:24.673+05:30  INFO 15368 --- [http-nio-8080-exec-5] c.c.controller.ShowDetailsController     : Processing the request to getAllShowDetails in the Class : com.cdac.controller.ShowDetailsController  
+2023-09-11T16:16:24.718+05:30  INFO 15368 --- [http-nio-8080-exec-4] c.c.controller.ShowDetailsController     : Processing the request to getAllShowDetails in the Class : com.cdac.controller.ShowDetailsController  
 2023-09-11T16:18:06.687+05:30  INFO 15368 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-09-11T16:18:06.704+05:30  INFO 15368 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-09-11T16:18:06.730+05:30  INFO 15368 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

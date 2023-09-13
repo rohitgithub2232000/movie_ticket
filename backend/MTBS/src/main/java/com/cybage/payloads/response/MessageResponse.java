@@ -1,4 +1,4 @@
-package com.cybage.payloads.response;
+package com.cdac.payloads.response;
 
 public class MessageResponse {
 	  private String message;

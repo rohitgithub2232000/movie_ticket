@@ -1,4 +1,4 @@
-package com.cybage.serviceImpl;
+package com.cdac.serviceImpl;
 
 public class ValidateReleaseDateForShedulingMovie {
 	

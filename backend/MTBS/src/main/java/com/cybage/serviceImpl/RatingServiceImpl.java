@@ -1,4 +1,4 @@
-package com.cybage.serviceImpl;
+package com.cdac.serviceImpl;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -7,15 +7,15 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.cybage.dto.RatingDTO;
-import com.cybage.exception.ResourceNotFoundException;
-import com.cybage.model.Movie;
-import com.cybage.model.Rating;
-import com.cybage.model.User;
-import com.cybage.repository.MovieRepository;
-import com.cybage.repository.RatingRepository;
-import com.cybage.repository.UserRepository;
-import com.cybage.service.RatingService;
+import com.cdac.dto.RatingDTO;
+import com.cdac.exception.ResourceNotFoundException;
+import com.cdac.model.Movie;
+import com.cdac.model.Rating;
+import com.cdac.model.User;
+import com.cdac.repository.MovieRepository;
+import com.cdac.repository.RatingRepository;
+import com.cdac.repository.UserRepository;
+import com.cdac.service.RatingService;
 
 @Service
 public class RatingServiceImpl implements RatingService {

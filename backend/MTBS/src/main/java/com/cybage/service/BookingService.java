@@ -1,8 +1,8 @@
-package com.cybage.service;
+package com.cdac.service;
 
 import java.util.List;
 
-import com.cybage.dto.BookingDTO;
+import com.cdac.dto.BookingDTO;
 
 public interface BookingService {
 	// create-booking-admin

@@ -1,6 +1,6 @@
-package com.cybage.payloads.response;
+package com.cdac.payloads.response;
 
-import com.cybage.dto.MovieDTO;
+import com.cdac.dto.MovieDTO;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

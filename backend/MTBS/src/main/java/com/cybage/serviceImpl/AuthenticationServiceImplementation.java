@@ -1,4 +1,4 @@
-package com.cybage.serviceImpl;
+package com.cdac.serviceImpl;
 
 import java.util.HashSet;
 import java.util.List;
@@ -13,20 +13,20 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.cybage.exception.ResourceNotFoundException;
-import com.cybage.model.ERole;
-import com.cybage.model.Role;
-import com.cybage.model.User;
-import com.cybage.payloads.LoginRequest;
-import com.cybage.payloads.PasswordUpdateRequest;
-import com.cybage.payloads.SignUpRequest;
-import com.cybage.payloads.response.JwtResponse;
-import com.cybage.payloads.response.MessageResponse;
-import com.cybage.repository.RoleRepository;
-import com.cybage.repository.UserRepository;
-import com.cybage.security.jwt.JwtUtils;
-import com.cybage.security.services.AuthenticationService;
-import com.cybage.security.services.UserDetailsImpl;
+import com.cdac.exception.ResourceNotFoundException;
+import com.cdac.model.ERole;
+import com.cdac.model.Role;
+import com.cdac.model.User;
+import com.cdac.payloads.LoginRequest;
+import com.cdac.payloads.PasswordUpdateRequest;
+import com.cdac.payloads.SignUpRequest;
+import com.cdac.payloads.response.JwtResponse;
+import com.cdac.payloads.response.MessageResponse;
+import com.cdac.repository.RoleRepository;
+import com.cdac.repository.UserRepository;
+import com.cdac.security.jwt.JwtUtils;
+import com.cdac.security.services.AuthenticationService;
+import com.cdac.security.services.UserDetailsImpl;
 
 @Service
 public class AuthenticationServiceImplementation implements AuthenticationService {

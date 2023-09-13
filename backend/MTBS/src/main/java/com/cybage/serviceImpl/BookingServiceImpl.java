@@ -1,4 +1,4 @@
-package com.cybage.serviceImpl;
+package com.cdac.serviceImpl;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -7,16 +7,16 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.cybage.dto.BookingDTO;
-import com.cybage.exception.ResourceNotFoundException;
-import com.cybage.model.Booking;
-import com.cybage.model.BookingStatus;
-import com.cybage.model.ShowDetails;
-import com.cybage.model.User;
-import com.cybage.repository.BookingRepository;
-import com.cybage.repository.ShowDetailsRepository;
-import com.cybage.repository.UserRepository;
-import com.cybage.service.BookingService;
+import com.cdac.dto.BookingDTO;
+import com.cdac.exception.ResourceNotFoundException;
+import com.cdac.model.Booking;
+import com.cdac.model.BookingStatus;
+import com.cdac.model.ShowDetails;
+import com.cdac.model.User;
+import com.cdac.repository.BookingRepository;
+import com.cdac.repository.ShowDetailsRepository;
+import com.cdac.repository.UserRepository;
+import com.cdac.service.BookingService;
 
 @Service
 public class BookingServiceImpl implements BookingService {

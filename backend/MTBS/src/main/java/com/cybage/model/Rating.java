@@ -1,4 +1,4 @@
-package com.cybage.model;
+package com.cdac.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
